@@ -67,23 +67,23 @@ html[data-theme=dark] #tema-btn{background:#2a2d33!important;color:#f2f2f0!impor
 </style><script>(function(){var t;try{t=localStorage.getItem('tema')}catch(e){}
 if(!t){var h=new Date().getHours();t=(h>=19||h<7||(matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches))?'dark':'light'}
 document.documentElement.setAttribute('data-theme',t)})();</script></head><body><div class="wrap">
-<p class="sub">TEYES Sibir · страница проверки · обновлено 17.11.2026 19:11 НСК</p>
+<p class="sub">TEYES Sibir · страница проверки · обновлено 17.11.2026 19:18 НСК</p>
 <h1>Статьи о работах мастеров – на проверку</h1>
 <p>Работы №171–368, которых ещё нет на сайте: реестр, статус и готовые страницы в том виде, в каком они встанут на сайт. На сайт и в Тильду отсюда ничего не уходит.</p>
 <div class="nums">
 <div class="box"><b>198</b>работ в реестре</div>
-<div class="box"><b>13</b>готово</div>
-<div class="box"><b>97</b>ждут писателя</div>
-<div class="box"><b>0</b>с ошибкой</div>
-<div class="box"><b>84</b>нет фото<br><span class="sub">из них 82 – фото только на Яндекс Диске</span></div>
+<div class="box"><b>18</b>готово</div>
+<div class="box"><b>167</b>ждут писателя</div>
+<div class="box"><b>5</b>с ошибкой</div>
+<div class="box"><b>4</b>нет фото<br><span class="sub">из них 2 – фото только на Яндекс Диске</span></div>
 <div class="box"><b>4</b>дубли</div>
 </div>
 <div class="note"><b>Призывы меняются сразу во всех статьях.</b> В каждой статье стоят только номера трёх призывов и липкая полоса, сама разметка лежит в одном файле <code>cta/bloki.py</code>. Поправили текст призыва или заменили один номер на другой (<code>ZAMENA</code> в том же файле) – одна команда <code>.venv/bin/python scripts/sobrat.py --vse</code> пересобирает все статьи. Сейчас призывы расставлены произвольно по правилу «холодный в начале, тёплый в середине, горячий в конце».</div>
-<div class="box"><p><b>Ход.</b> В среднем 3,8 мин на статью (по готовым, при трёх писателях одновременно). Прогноз на оставшиеся 97: 2.0 ч при трёх писателях. Спрос Вордстата (XMLRiver): 375 обращений ≈ 9.38 ₽.</p>
+<div class="box"><p><b>Ход.</b> В среднем 3,7 мин на статью (по готовым, при трёх писателях одновременно). Прогноз на оставшиеся 167: 3.4 ч при трёх писателях. Спрос Вордстата (XMLRiver): 390 обращений ≈ 9.75 ₽. Прогон остановлен: три отказа подряд по лимиту подписки</p>
 <p class="sub">Спрос – частота точной формулировки в месяц; «&gt;=N» – головной строки в Вордстате нет, это нижняя граница; «нет данных» – провайдер не ответил.</p></div>
 <div class="filt">
 <select id="f-marka" aria-label="Марка"><option value="">Все марки</option><option>Audi</option><option>BMW</option><option>Daihatsu</option><option>Geely</option><option>Honda</option><option>Hyundai</option><option>Infiniti</option><option>Jeep</option><option>Kia</option><option>Lada</option><option>Land Rover</option><option>Lexus</option><option>Mazda</option><option>Mercedes-Benz</option><option>Mitsubishi</option><option>Nissan</option><option>Peugeot</option><option>Porsche</option><option>Renault</option><option>Skoda</option><option>Subaru</option><option>Suzuki</option><option>Toyota</option><option>UAZ</option><option>Volkswagen</option><option>Zeekr</option></select>
-<select id="f-status" aria-label="Статус"><option value="">Все статусы</option><option value="gotovo">готово (13)</option><option value="zhdyot">ждёт (97)</option><option value="oshibka">ошибка (0)</option><option value="net-foto">нет фото (84)</option><option value="dubl">дубль (4)</option></select>
+<select id="f-status" aria-label="Статус"><option value="">Все статусы</option><option value="gotovo">готово (18)</option><option value="zhdyot">ждёт (167)</option><option value="oshibka">ошибка (5)</option><option value="net-foto">нет фото (4)</option><option value="dubl">дубль (4)</option></select>
 <input id="f-q" type="search" placeholder="Поиск: модель, устройство, номер" aria-label="Поиск">
 <span class="sub" id="f-n" style="align-self:center"></span>
 </div>
@@ -128,10 +128,10 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc4-honda-vezel-2019</code></p>
 <a class="btn" href="k/365/">Открыть как на сайте</a>
 <p class="meta"><b>Honda Vezel: магнитола Teyes CC4 вместо Gathers, Новосибирск</b><br>Honda Vezel 2019 с правым рулём: штатную Gathers сменили на Teyes CC4, микрофон громкой связи – в потолок. Фото до и после установки.</p>
-<details><summary>Проверка кодом: ошибок 0, замечаний 2</summary><p class="meta">title 60 зн., description 133 зн., фото 4, ссылок 35</p><ul><li><b>замечание:</b> honda-vezel-2019-shtatnaya-magnitola-gathers.webp: детектор видит номер в рамке [128, 496, 508, 723] (уверенность 0.72), писатель отметил, что это не номер – посмотреть глазами</li><li><b>замечание:</b> ошибки скриптов на 390 px: t396__updateTopShift is undefined</li></ul></details>
+<details><summary>Проверка кодом: ошибок 0, замечаний 1</summary><p class="meta">title 60 зн., description 133 зн., фото 4, ссылок 35</p><ul><li><b>замечание:</b> honda-vezel-2019-shtatnaya-magnitola-gathers.webp: детектор видит номер в рамке [128, 496, 508, 723] (уверенность 0.72), писатель отметил, что это не номер – посмотреть глазами</li></ul></details>
 <details open><summary>Что проверить владельцу: 5</summary><ul><li>Штатная магнитола Gathers взята с фото до установки (надпись на экране), в записи мастера её нет – подтвердить, что это кадр этой же машины до работы.</li><li>Место микрофона (потолок у передней стойки) – по фото; это водительская сторона? В тексте сторона не названа.</li><li>Кнопки руля, штатная камера и звук не упомянуты ни в записи, ни на фото – в тексте про них нет. Если работают с Teyes CC4 – можно дописать.</li><li>Фраза «Honda Vezel в Новосибирске часто праворульная, из Японии» – общее наблюдение, не из записи; оставить или убрать.</li><li>Размер экрана Teyes CC4 и рамка для этого Vezel в записи не указаны – в тексте их нет.</li></ul></details>
 <details><summary>Фото: взято 4 из 4</summary><ul><li>взят · номер: net · салон до установки: штатная Gathers; рамка детектора – экран магнитолы, не номер (--ne-nomer); внизу слева колено в джинсах, лица нет</li><li>взят · номер: net · салон после установки: Teyes CC4 с русским рабочим столом – главный кадр</li><li>взят · номер: net · микрофон в обшивке потолка у передней стойки</li><li>взят · номер: zakryt · машина спереди в цехе; передний номер под углом закрыт по 8 точкам, лупой проверено – знаков не читается</li></ul></details>
-<p class="meta">Призывы: CTA-01 → CTA-10 → CTA-06 + полоса CTA-20 · написано за 4 мин</p>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 4 мин</p>
 </div><div class="card" data-id="364" data-marka="Renault" data-status="gotovo">
 <div class="top"><b>№364 · Renault Samsung QM6, 2022</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка сигнализации StarLine s96 · 05.11.2026 · фото: 2 · услуга: сигнализация</p>
@@ -223,12 +223,18 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <details open><summary>Что проверить владельцу: 6</summary><ul><li>Место камеры «в накладке пятой двери, над задним номером» взято с кадра telegram_3120, который на страницу не попал (номер на полкадра, закрыть аккуратно нельзя). Подтвердить место.</li><li>Картинки камеры на экране Teyes CC4 нет ни на одном кадре – камера выведена на экран магнитолы или на что-то другое?</li><li>Teyes CC4 стоит на месте штатной магнитолы в рамке – так по фото. Что стояло до установки, в записи нет: в тексте не названо.</li><li>Кнопки руля, штатный звук и усилитель не упомянуты ни в записи, ни на фото – в тексте про них ничего нет.</li><li>Диагональ экрана Teyes CC4 в записи не указана – в тексте её нет; если известна, можно добавить.</li><li>Кадр с камерой над номером стоит переснять без номера в кадре (или закрыть табличкой TEYES SIBIR) – это лучший кадр про камеру.</li></ul></details>
 <details><summary>Фото: взято 3 из 4</summary><ul><li>взят · номер: net · консоль сбоку: Teyes CC4 в рамке над блоком климата, рабочий стол Teyes – кадр для первого экрана</li><li>взят · номер: net · вид с места водителя на панель и экран Teyes; рамка детектора 1077,677,1486,928 – экран магнитолы, не номер (--ne-nomer); в зеркале только пальцы снимающего, лица нет</li><li>не взят · номер: zakryt · камера заднего вида над номером крупно; номер занимает полкадра, скрипт отказал закрывать (рамка слишком большая) – кадр не взят</li><li>взят · номер: zakryt · машина спереди в три четверти в цехе; передний номер под углом закрыт по четырём углам, читаемых знаков нет</li></ul></details>
 <p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 4 мин</p>
-</div><div class="card" data-id="356" data-marka="Mazda" data-status="zhdyot">
-<div class="top"><b>№356 · Mazda CX-5, 2026</b><span class="chip zhdyot">ждёт</span></div>
+</div><div class="card" data-id="356" data-marka="Mazda" data-status="gotovo">
+<div class="top"><b>№356 · Mazda CX-5, 2026</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка сигнализации StarLine e97 · 31.10.2026 · фото: 2 · услуга: сигнализация</p>
 <p class="meta">Запрос: «сигнализация мазда сх 5» – Новосибирск &gt;=1, Россия &gt;=305 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/mazda/starline-e97-mazda-cx-5-2026</code></p>
+<a class="btn" href="k/356/">Открыть как на сайте</a>
+<p class="meta"><b>StarLine E97 на Mazda CX-5 2026 – установка в Новосибирске</b><br>Mazda CX-5 2026 года: мастера TEYES Sibir установили сигнализацию StarLine E97. На фото – машина в цехе и комплект E97 у лобового стекла. Цены.</p>
 <details><summary>Замечания реестра: 1</summary><ul><li>мало фото (2)</li></ul></details>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 58 зн., description 143 зн., фото 2, ссылок 37</p></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Год 2026 взят из записи мастера («Mazda cx5 2026 год») – это год выпуска машины? Решётка на фото – как у CX-5 после обновления 2022 года.</li><li>Ставили StarLine E97 с автозапуском или без? От этого зависит, какую цену из двух показывать первой.</li><li>Фото самой установки нет: оба кадра – машина и коробка E97 до работы. Есть ли кадры блока, брелока или приложения?</li><li>Функции с коробки («Защита от кодграбберов», «Bluetooth Smart», «Умный климат-контроль», «Умная цифровая интеграция») даны как надписи на фото. Подтвердить, что на этой CX-5 они подключены, или убрать пункт.</li><li>Ссылка на страницу модели https://teyes-sibir.ru/multimedia_teyes/mazda/cx-5 отвечает 200, но это страница мультимедиа – оставить в блоке ссылок статьи о сигнализации?</li></ul></details>
+<details><summary>Фото: взято 2 из 2</summary><ul><li>взят · номер: zakryt · Mazda CX-5 спереди в цехе, коробка E97 у стекла; госномер снят прямо – закрыт по табличке; в правом нижнем углу ботинок, лица нет; белая и красная машины на фоне без видимых номеров</li><li>взят · номер: zakryt · коробка StarLine E97 на капоте у лобового стекла; госномера нет, закрыт читаемый VIN, выбитый на лобовом стекле внизу слева (размытие --kak-est)</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-17 → CTA-03 + полоса CTA-20 · написано за 4 мин</p>
 </div><div class="card" data-id="355" data-marka="Mazda" data-status="gotovo">
 <div class="top"><b>№355 · Mazda CX-3, 2018</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка сигнализации StarLine e97 · 31.10.2026 · фото: 2 · услуга: сигнализация</p>
@@ -241,57 +247,98 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <details open><summary>Что проверить владельцу: 4</summary><ul><li>Ставили ли автозапуск на Mazda CX-3? В записи этого нет, поэтому в тексте обе цены – без автозапуска и с ним.</li><li>Управление по Bluetooth Smart, приложение и брелок с экраном упомянуты только по надписям и рисункам на коробке E97 – что из этого настроили и отдали владельцу?</li><li>«Других работ по машине не заказывали» – выведено из того, что в записи одна работа. Верно?</li><li>Фото установленного блока, брелока или приложения нет, только машина с коробкой – есть ли кадры после установки?</li></ul></details>
 <details><summary>Фото: взято 2 из 2</summary><ul><li>взят · номер: net · коробка StarLine E97 на капоте у лобового стекла, номера в кадре нет; наклейка «2» на стекле – не номер</li><li>взят · номер: zakryt · Mazda CX-3 спереди в цехе, коробка StarLine у стекла; передний номер закрыт по рамке детектора (0,94), лупой проверено – знаков не видно</li></ul></details>
 <p class="meta">Призывы: CTA-01 → CTA-17 → CTA-16 + полоса CTA-20 · написано за 2 мин</p>
-</div><div class="card" data-id="354" data-marka="Suzuki" data-status="zhdyot">
-<div class="top"><b>№354 · Suzuki Grand Vitara, 2008</b><span class="chip zhdyot">ждёт</span></div>
+</div><div class="card" data-id="354" data-marka="Suzuki" data-status="gotovo">
+<div class="top"><b>№354 · Suzuki Grand Vitara, 2008</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 360, сигнализации StarLine e97 · 31.10.2026 · фото: 10 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола сузуки гранд витара» – Новосибирск 39, Россия 2008 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/suzuki/teyes-cc4-suzuki-grand-vitara-2008-360-view-starline-e97</code></p>
-</div><div class="card" data-id="353" data-marka="Honda" data-status="zhdyot">
-<div class="top"><b>№353 · Honda Fit, 2016</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/354/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола Suzuki Grand Vitara 2008: Teyes CC4, Новосибирск</b><br>Suzuki Grand Vitara 2008: Teyes CC4 вместо штатной CD-магнитолы, камеры кругового обзора 360 и сигнализация StarLine E97. Фото до и после.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 58 зн., description 138 зн., фото 7, ссылок 36</p></details>
+<details open><summary>Что проверить владельцу: 6</summary><ul><li>«360» в записи понят как система кругового обзора с камерами. На фото видны камеры под двумя зеркалами и (на кадре 002, на страницу не взят) камера в решётке радиатора; задней камеры и экрана с картинкой 360 на фото нет – подтвердить, что ставили полный комплект из четырёх камер.</li><li>StarLine E97 ставили с автозапуском или без? В тексте цены сигнализации нет – только «назовёт менеджер».</li><li>Стороны зеркал (левое и правое) определены по кадрам 003 и 004 – проверить подписи.</li><li>Диагональ экрана Teyes CC4, кнопки руля и штатный звук не названы ни в записи, ни на фото – в тексте про них нет.</li><li>Кадр 002 (камера в решётке радиатора крупно) не взят: табличка номера больше предела скрипта закрытия. Нужен этот кадр – кадрировать вручную.</li><li>Кадр 001: номер закрыт, но под ним видна рамка дилера «Феникс Авто» с частью телефона – оставить или закрыть.</li></ul></details>
+<details><summary>Фото: взято 7 из 10</summary><ul><li>взят · номер: zakryt · машина спереди в цехе, коробка StarLine E97 на капоте; номер снят прямо, закрыт по табличке, проверен лупой</li><li>не взят · номер: zakryt · передок крупно, камера в решётке; номер на пол-кадра – скрипт не закрывает такую рамку, кадр не взят</li><li>взят · номер: net · камера 360 под правым зеркалом; в зеркале мелкое отражение снимающего, лица не разобрать</li><li>взят · номер: net · камера 360 под левым зеркалом; в зеркале мелкое отражение снимающего, лица не разобрать</li><li>взят · номер: net · Teyes CC4 в консоли крупно, климат и селектор 4WD</li><li>не взят · номер: net · чехол руля TEYES Sibir и экран сбоку – дубль ракурса 007</li><li>взят · номер: net · общий вид салона с Teyes CC4, колени мастера в рабочих брюках – лица нет; кадр первого экрана</li><li>не взят · номер: net · штатная CD-магнитола до установки с чехлом руля – дубль 009</li><li>взят · номер: net · штатная CD-магнитола до установки</li><li>взят · номер: net · коробка StarLine E97 на капоте</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-19 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="353" data-marka="Honda" data-status="gotovo">
+<div class="top"><b>№353 · Honda Fit, 2016</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка сигнализации StarLine s96 · 31.10.2026 · фото: 3 · услуга: сигнализация</p>
 <p class="meta">Запрос: «сигнализация хонда фит» – Новосибирск &gt;=13, Россия &gt;=139 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/honda/starline-s96-honda-fit-2016</code></p>
-</div><div class="card" data-id="352" data-marka="Geely" data-status="zhdyot">
-<div class="top"><b>№352 · Geely Coolray, 2021</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/353/">Открыть как на сайте</a>
+<p class="meta"><b>Honda Fit 2016: сигнализация StarLine S96 в Новосибирске</b><br>Белая Honda Fit 2016 года в цехе TEYES Sibir: установили сигнализацию StarLine S96. На фото – машина спереди и коробка комплекса на лобовом стекле.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 56 зн., description 147 зн., фото 2, ссылок 32</p></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>В записи «StarLine s96», на коробке в кадрах – «S96 V2». В тексте и подписях указано, что на фото коробка S96 V2 – верно?</li><li>Ставили ли на эту Honda Fit автозапуск? В записи не сказано, поэтому в тексте названы обе цены установки – с автозапуском и без.</li><li>Шаг «коробку ставят на стекло, чтобы отметить, какой комплекс поставлен» – это так у мастеров принято? Если нет – убрать вторую часть шага.</li><li>Совет прислать фото замка зажигания или кнопки запуска для подбора – так ли менеджер подбирает комплекс на Honda Fit?</li><li>Третий кадр задания (003) – тёмная машина другой марки с коробкой StarLine E97, к этой работе не относится; кадр не взят. Проверить, не перепутаны ли фото в папке работы.</li></ul></details>
+<details><summary>Фото: взято 2 из 3</summary><ul><li>взят · номер: zakryt · белая Honda Fit спереди в цехе, коробка StarLine S96 V2 на лобовом стекле; номер закрыт по четырём углам таблички</li><li>взят · номер: net · коробка StarLine S96 V2 крупно на лобовом стекле Honda Fit; номера в кадре нет</li><li>не взят · номер: net · тёмно-синяя машина другой марки с коробкой StarLine E97 – не эта работа, не взят</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-18 → CTA-16 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="352" data-marka="Geely" data-status="gotovo">
+<div class="top"><b>№352 · Geely Coolray, 2021</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 12 дюймов · 31.10.2026 · фото: 3 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола джили кулрей» – Новосибирск &gt;=2, Россия &gt;=153 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/geely/teyes-cc4-12-inch-geely-coolray-2021</code></p>
-</div><div class="card" data-id="351" data-marka="Nissan" data-status="zhdyot">
-<div class="top"><b>№351 · Nissan X-Trail, 2010</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/352/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола Teyes CC4 12″ на Geely Coolray, Новосибирск</b><br>Geely Coolray 2021: установили мультимедиа Teyes CC4 с экраном 12 дюймов над дефлекторами. На фото – рабочий стол Teyes с музыкой и поездкой.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 2</summary><p class="meta">title 53 зн., description 141 зн., фото 2, ссылок 29</p><ul><li><b>замечание:</b> geely-coolray-2021-teyes-cc4-12-inch-salon.webp: детектор видит номер в рамке [810, 363, 1452, 641] (уверенность 0.9), писатель отметил, что это не номер – посмотреть глазами</li><li><b>замечание:</b> geely-coolray-2021-teyes-cc4-center-console.webp: детектор видит номер в рамке [266, 218, 1055, 576] (уверенность 0.91), писатель отметил, что это не номер – посмотреть глазами</li></ul></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Teyes CC4 12″ стоит на месте штатного экрана Coolray или это отдельная рамка? В записи только «установка мультимедиа», в тексте место описано по фото – над дефлекторами.</li><li>Работают ли кнопки руля и штатная камера с Teyes CC4 – ни в записи, ни на фото этого нет, в тексте не утверждается.</li><li>Виджет «Давление в шинах» на экране пустой (прочерки) – датчики TPMS не ставили? В тексте упомянут только виджет.</li><li>Страница модели https://teyes-sibir.ru/multimedia_teyes/geely/coolray отвечает 404 – ссылку не ставил; завести страницу Coolray?</li><li>Есть ли в каталоге комплект Teyes CC4 12″ именно под Geely Coolray 2021 – в тексте отправляю в общий каталог Geely.</li></ul></details>
+<details><summary>Фото: взято 2 из 3</summary><ul><li>не взят · номер: net · салон с места водителя, экран Teyes CC4 – дубль кадра 002 почти в том же ракурсе; детектор принял экран за номер, номера нет</li><li>взят · номер: net · салон с места водителя, экран Teyes CC4 12″ над дефлекторами – первый экран; рамка детектора на экране магнитолы – не номер (--ne-nomer); на экране мелкая обложка альбома с фигурой музыканта, лица не различить; на торпедо упаковка сим-карты, текст не читается</li><li>взят · номер: net · вертикальный кадр центральной консоли: экран Teyes CC4, дефлекторы, блок климата; рамка детектора на экране – не номер (--ne-nomer); обложка альбома на экране, лицо мелкое</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 2 мин</p>
+</div><div class="card" data-id="351" data-marka="Nissan" data-status="gotovo">
+<div class="top"><b>№351 · Nissan X-Trail, 2010</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC3L, камера заднего вида · 30.10.2026 · фото: 5 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «камера заднего вида ниссан х трейл» – Новосибирск &gt;=1, Россия &gt;=242 в месяц · угол: камера заднего вида</p>
 <p class="meta">Адрес: <code>/work/nissan/teyes-cc3l-nissan-x-trail-2010-rear-camera</code></p>
-</div><div class="card" data-id="350" data-marka="Honda" data-status="zhdyot">
-<div class="top"><b>№350 · Honda Stepwgn, 2023</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/351/">Открыть как на сайте</a>
+<p class="meta"><b>Камера заднего вида на Nissan X-Trail 2010 в Новосибирске</b><br>Nissan X-Trail 2010: штатную магнитолу сменили на Teyes CC3L и поставили камеру заднего вида. Картинка камеры с линиями – на экране, на фото работы.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 57 зн., description 148 зн., фото 5, ссылок 35</p></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Где установлена камера заднего вида на Nissan X-Trail (над номером, в ручке двери багажника)? Снаружи камеры на фото нет, в тексте место не названо.</li><li>Камера на фото – с цветными линиями разметки. Это статичные линии камеры или динамические от Teyes? В тексте только «линии разметки».</li><li>Диагональ экрана Teyes CC3L не названа ни в записи, ни видна на фото – в тексте её нет. Нужна ли?</li><li>Кнопки руля, штатный звук и Bluetooth-громкая связь в записи не упомянуты – в тексте про них ничего нет.</li><li>Камеру ставили в рамках акции «камера в подарок» (в конце стоит призыв 07 про акцию)? Если нет – можно сменить на 06.</li></ul></details>
+<details><summary>Фото: взято 5 из 5</summary><ul><li>взят · номер: net · салон до установки: штатная магнитола Nissan с CD</li><li>взят · номер: net · Teyes CC3L в консоли, на экране радио; у правого края колено пассажира в джинсах, лица нет</li><li>взят · номер: net · Teyes CC3L, рабочий стол – кадр первого экрана</li><li>взят · номер: net · картинка камеры заднего вида на экране, в картинке цех без машин и номеров</li><li>взят · номер: zakryt · машина спереди в цехе; номер под углом закрыт по четырём углам таблички, рамка дилера с телефоном осталась</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-07 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="350" data-marka="Honda" data-status="oshibka">
+<div class="top"><b>№350 · Honda Stepwgn, 2023</b><span class="chip oshibka">ошибка</span></div>
 <p class="meta">CC3 2к 13 дюймов · 30.10.2026 · фото: 4 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола хонда степвагон» – Новосибирск 143, Россия 3233 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc3-2k-13-inch-honda-stepwgn-2023</code></p>
-</div><div class="card" data-id="349" data-marka="Toyota" data-status="zhdyot">
-<div class="top"><b>№349 · Toyota Land Cruiser Prado 150, 2013</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/350/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола Teyes CC3 2K 13″ на Honda Stepwgn, Новосибирск</b><br>Honda Stepwgn 2023 с правым рулём: поставили Teyes CC3 2K с экраном 13 дюймов наверху торпедо. На фото – рабочий стол, радио и карта. Фото работы.</p>
+<p class="meta"><b>Ошибка:</b> проверка: ссылка отвечает 404: https://teyes-sibir.ru/work/honda/teyes-cc4-pro-honda-stepwgn-rear-monitor</p>
+<details><summary>Проверка кодом: ошибок 1, замечаний 0</summary><p class="meta">title 56 зн., description 146 зн., фото 3, ссылок 33</p><ul><li><b>ошибка:</b> ссылка отвечает 404: https://teyes-sibir.ru/work/honda/teyes-cc4-pro-honda-stepwgn-rear-monitor</li></ul></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Экран Teyes CC3 2K стоит на подставке поверх торпедо (видно на фото сбоку). Это штатное место экрана Stepwgn или подставку ставили мы – в записи не сказано, в тексте про это нет.</li><li>Что сохранилось из штатного (кнопки руля, камера, климат на экране) – в записи нет, в тексте не упомянуто.</li><li>Модель записана как «CC3 2к 13 дюймов» – в каталоге сайта есть Teyes CC3 2K 13″ для Stepwgn 2023? Ссылка ведёт на каталог Honda.</li><li>Страницы модели /multimedia_teyes/honda/stepwgn нет (404) – ссылка дана на страницу марки.</li><li>На кадрах салона (dashboard и вид сбоку) на заднем плане сквозь стекло виден мастер за верстаком, лицо мелкое, голова опущена – подтвердить, что кадры можно ставить.</li></ul></details>
+<details><summary>Фото: взято 3 из 4</summary><ul><li>взят · номер: zakryt · белая Honda Stepwgn спереди в цехе; квадратный номер закрыт по четырём углам</li><li>не взят · номер: net · салон через боковое стекло, экран выключен; лицо мастера на фоне читается, номер мотоцикла на заднем плане – не взят</li><li>взят · номер: net · корпус экрана Teyes сбоку на подставке поверх торпедо; мастер на фоне у края кадра, лица почти не видно</li><li>взят · номер: net · место водителя: Teyes CC3 2K 13″ с рабочим столом, климат, руль; на фоне мастер с опущенной головой, мелко</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="349" data-marka="Toyota" data-status="oshibka">
+<div class="top"><b>№349 · Toyota Land Cruiser Prado 150, 2013</b><span class="chip oshibka">ошибка</span></div>
 <p class="meta">CC3, камера заднего вида · 29.10.2026 · фото: 4 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «камера заднего вида прадо 150» – Новосибирск 9, Россия 376 в месяц · угол: камера заднего вида</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc3-toyota-land-cruiser-prado-150-2013-rear-camera</code></p>
-</div><div class="card" data-id="348" data-marka="Hyundai" data-status="zhdyot">
-<div class="top"><b>№348 · Hyundai Creta, 2017</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/349/">Открыть как на сайте</a>
+<p class="meta"><b>Камера заднего вида Prado 150 и Teyes CC3, Новосибирск</b><br>Toyota Land Cruiser Prado 150 2013: поставили Teyes CC3 и камеру заднего вида. На фото – экран в центральной консоли над блоком климата.</p>
+<p class="meta"><b>Ошибка:</b> проверка: в «title» нет модели Land Cruiser Prado; ссылка отвечает 404: https://teyes-sibir.ru/work/toyota/teyes-cc4-pro-toyota-land-cruiser-prado-150</p>
+<details><summary>Проверка кодом: ошибок 2, замечаний 3</summary><p class="meta">title 54 зн., description 136 зн., фото 3, ссылок 36</p><ul><li><b>ошибка:</b> в «title» нет модели Land Cruiser Prado</li><li><b>ошибка:</b> ссылка отвечает 404: https://teyes-sibir.ru/work/toyota/teyes-cc4-pro-toyota-land-cruiser-prado-150</li><li><b>замечание:</b> toyota-land-cruiser-prado-150-teyes-cc3-dashboard.webp: детектор видит номер в рамке [1081, 846, 1292, 892] (уверенность 0.64), писатель отметил, что это не номер – посмотреть глазами</li><li><b>замечание:</b> toyota-land-cruiser-prado-150-teyes-cc3-driver-view.webp: детектор видит номер в рамке [63, 895, 245, 1091] (уверенность 0.57), писатель отметил, что это не номер – посмотреть глазами</li><li><b>замечание:</b> toyota-land-cruiser-prado-150-teyes-cc3-screen-closeup.webp: детектор видит номер в рамке [489, 922, 810, 998] (уверенность 0.43), писатель отметил, что это не номер – посмотреть глазами</li></ul></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Камеры заднего вида нет ни на одном кадре: ни самой камеры, ни картинки с неё на экране. Фраза «картинка выводится на экран Teyes CC3» выведена из записи – подтвердить, что камера подключена к Teyes.</li><li>Камеру ставили новую или подключили штатную? В записи – «камера заднего вида», в тексте – «поставили».</li><li>Размер экрана Teyes CC3 (9 или 10 дюймов) в записи не указан – в тексте его нет.</li><li>Кнопки руля, штатный звук и камера в комплекте по акции не упомянуты в записи – в тексте про них нет.</li><li>Кузов 150 взят из задания, на фото по виду салона совпадает – подтвердить.</li></ul></details>
+<details><summary>Фото: взято 3 из 4</summary><ul><li>взят · номер: net · вид с места водителя, Teyes CC3 с рабочим столом; рамка детектора – дисплей блока климата «111», не номер (--ne-nomer)</li><li>взят · номер: net · салон от двери водителя, экран в блике; рамка детектора – кнопки на панели у двери, не номер (--ne-nomer)</li><li>взят · номер: net · экран Teyes CC3 крупно над блоком климата; рамка детектора – дисплей климата, не номер (--ne-nomer)</li><li>не взят · номер: zakryt · белый Prado 150 снаружи в цехе, номер читается; не взят: справа в соседней машине виден человек в профиль (лицо)</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="348" data-marka="Hyundai" data-status="oshibka">
+<div class="top"><b>№348 · Hyundai Creta, 2017</b><span class="chip oshibka">ошибка</span></div>
 <p class="meta">CC3, камера заднего вида, микрофон в штатное место · 28.10.2026 · фото: 5 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола хендай крета» – Новосибирск 32, Россия 3099 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/hyundai/teyes-cc3-hyundai-creta-2017-rear-camera</code></p>
-</div><div class="card" data-id="347" data-marka="Audi" data-status="net-foto">
-<div class="top"><b>№347 · Audi Q5, 2013</b><span class="chip net-foto">нет фото</span></div>
+<p class="meta"><b>Ошибка:</b> писатель не оставил keys.json (код 1)</p>
+</div><div class="card" data-id="347" data-marka="Audi" data-status="zhdyot">
+<div class="top"><b>№347 · Audi Q5, 2013</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes LUX ONE · 24.10.2026 · фото: 7 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола ауди q5» – Новосибирск &gt;=4, Россия &gt;=136 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/audi/teyes-lux-one-audi-q5-2013</code></p>
-<details open><summary>Замечания реестра: 1</summary><ul><li>фото есть только на Яндекс Диске (/TEYES Case Studio/Кейсы из Telegram/347_Audi Q5 установка) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="346" data-marka="Subaru" data-status="zhdyot">
-<div class="top"><b>№346 · Subaru Levorg, 2018</b><span class="chip zhdyot">ждёт</span></div>
+<details><summary>Замечания реестра: 1</summary><ul><li>фото из готовых кадров Case Studio, сопоставление: высокая – готовые кадры этой работы из Case Studio v2 (статья «ustanovka-teyes-lux-one-audi-q5-2013», работа v2 №1 = старая №347); 6 кадров из 7, размер 1280 px</li></ul></details>
+</div><div class="card" data-id="346" data-marka="Subaru" data-status="oshibka">
+<div class="top"><b>№346 · Subaru Levorg, 2018</b><span class="chip oshibka">ошибка</span></div>
 <p class="meta">CC4 Pro 12 дюймов, камера заднего вида, видеорегистратор, микрофон · 23.10.2026 · фото: 7 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола субару леворг» – Новосибирск 33, Россия 575 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/subaru/teyes-cc4-pro-12-inch-subaru-levorg-2018-rear-camera-dashcam</code></p>
-</div><div class="card" data-id="345" data-marka="Subaru" data-status="zhdyot">
-<div class="top"><b>№345 · Subaru Legacy, 2018</b><span class="chip zhdyot">ждёт</span></div>
+<p class="meta"><b>Ошибка:</b> писатель не оставил keys.json (код 1)</p>
+</div><div class="card" data-id="345" data-marka="Subaru" data-status="oshibka">
+<div class="top"><b>№345 · Subaru Legacy, 2018</b><span class="chip oshibka">ошибка</span></div>
 <p class="meta">CC4 12 дюймов, камера заднего вида, видеорегистратор · 23.10.2026 · фото: 7 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола субару легаси» – Новосибирск 0, Россия &gt;=6 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/subaru/teyes-cc4-12-inch-subaru-legacy-2018-rear-camera-dashcam</code></p>
+<p class="meta"><b>Ошибка:</b> писатель не оставил keys.json (код 1)</p>
 </div><div class="card" data-id="344" data-marka="Daihatsu" data-status="zhdyot">
 <div class="top"><b>№344 · Daihatsu Rocky, 2022</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка охранного комплекса StarLine s97 · 17.10.2026 · фото: 1 · услуга: сигнализация</p>
@@ -671,12 +718,12 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <p class="meta">Запрос: «магнитола паджеро мини» – Новосибирск 4, Россия 154 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/mitsubishi/teyes-cc4-mitsubishi-pajero-mini-2009-rear-camera-dashcam</code></p>
 <details><summary>Замечания реестра: 1</summary><ul><li>мало фото (1)</li></ul></details>
-</div><div class="card" data-id="274" data-marka="Toyota" data-status="dubl">
-<div class="top"><b>№274 · Toyota Land Cruiser Prado 150, 2019</b><span class="chip dubl">дубль</span></div>
+</div><div class="card" data-id="274" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№274 · Toyota Land Cruiser Prado 150, 2019</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro 360, 6 камер · 27.08.2026 · фото: 8 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «круговой обзор прадо 150» – Новосибирск 0, Россия &gt;=9 в месяц · угол: круговой обзор на 6 камер</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-pro-toyota-land-cruiser-prado-150-2019-360-view</code></p>
-<details open><summary>Замечания реестра: 1</summary><ul><li>объединить с №337</li></ul></details>
+<details><summary>Замечания реестра: 1</summary><ul><li>решение по дублю: не дубль №337: в записи «360, 6 камер» – своя особенность работы, свой запрос про круговой обзор</li></ul></details>
 </div><div class="card" data-id="273" data-marka="Toyota" data-status="zhdyot">
 <div class="top"><b>№273 · Toyota Funcargo, 1999</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC3, передняя камера, задняя камера · 27.08.2026 · фото: 4 · услуга: мультимедиа Teyes</p>
@@ -692,13 +739,13 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <p class="meta">CC3, передняя камера, задняя камера · 25.08.2026 · фото: 4 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: своего запроса нет</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc3-toyota-funcargo-1999-rear-camera-front-camera</code></p>
-<details open><summary>Замечания реестра: 1</summary><ul><li>объединить с №273</li></ul></details>
+<details open><summary>Замечания реестра: 2</summary><ul><li>объединить с №273</li><li>решение по дублю: та же модель, то же устройство и тот же состав, что у №273</li></ul></details>
 </div><div class="card" data-id="270" data-marka="Toyota" data-status="dubl">
 <div class="top"><b>№270 · Toyota Funcargo, 2000</b><span class="chip dubl">дубль</span></div>
 <p class="meta">CC3, передняя камера, камера заднего вида · 25.08.2026 · фото: 4 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: своего запроса нет</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc3-toyota-funcargo-2000-rear-camera-front-camera</code></p>
-<details open><summary>Замечания реестра: 1</summary><ul><li>объединить с №273</li></ul></details>
+<details open><summary>Замечания реестра: 2</summary><ul><li>объединить с №273</li><li>решение по дублю: та же модель, то же устройство и тот же состав (CC3, передняя и задняя камеры), что у №273 – отдельная страница делила бы запрос</li></ul></details>
 </div><div class="card" data-id="269" data-marka="Honda" data-status="zhdyot">
 <div class="top"><b>№269 · Honda Vezel, 2026</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 Установка охранного комплекса StarLine s97 lte gps · 24.08.2026 · фото: 4 · услуга: мультимедиа Teyes</p>
@@ -760,7 +807,7 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <p class="meta">Установка мультимедиа Teyes cc4l · 07.26 · фото: 5 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: своего запроса нет</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4l-toyota-camry-2013</code></p>
-<details open><summary>Замечания реестра: 1</summary><ul><li>фото есть только на Яндекс Диске (путь не записан) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
+<details open><summary>Замечания реестра: 1</summary><ul><li>фото нет: папка работы нигде не записана; в выгрузке Telegram и в копии Диска Toyota Camry 2013 с Teyes CC4L нет</li></ul></details>
 </div><div class="card" data-id="258" data-marka="Toyota" data-status="zhdyot">
 <div class="top"><b>№258 · Toyota Highlander</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">какая-то магнитола 12 дюймов · 07.26 · фото: 2 · услуга: мультимедиа Teyes</p>
@@ -779,18 +826,18 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <p class="meta">Запрос: «магнитола хендай соната» – Новосибирск 0, Россия &gt;=192 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/hyundai/teyes-cc4l-hyundai-sonata-9</code></p>
 <details><summary>Замечания реестра: 1</summary><ul><li>года нет в записи – в текст не писать</li></ul></details>
-</div><div class="card" data-id="255" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№255 · Honda Freed</b><span class="chip net-foto">нет фото</span></div>
+</div><div class="card" data-id="255" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№255 · Honda Freed</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа cc4L · 07.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4l хонда фрид» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4L</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc4l-honda-freed</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/244_Honda freed 1G) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «244_Honda freed 1G» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (2)</li></ul></details>
 </div><div class="card" data-id="254" data-marka="Toyota" data-status="dubl">
 <div class="top"><b>№254 · Toyota Land Cruiser 200</b><span class="chip dubl">дубль</span></div>
 <p class="meta">Установка мультимедиа CC4 pro 360 · 07.26 · фото: 7 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: своего запроса нет</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-pro-toyota-land-cruiser-200-360-view</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>объединить с №338</li><li>года нет в записи – в текст не писать</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+<details open><summary>Замечания реестра: 4</summary><ul><li>объединить с №338</li><li>года нет в записи – в текст не писать</li><li>решение по дублю: Land Cruiser 200 с CC4 Pro и круговым обзором, года нет – развести с №338 нечем</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
 </div><div class="card" data-id="253" data-marka="Honda" data-status="zhdyot">
 <div class="top"><b>№253 · Honda Vezel</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC4, камера обгона · 06.26 · фото: 3 · услуга: мультимедиа Teyes</p>
@@ -803,314 +850,314 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <p class="meta">Запрос: «магнитола шкода суперб» – Новосибирск 1, Россия 939 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/skoda/teyes-cc4-skoda-superb-rear-camera</code></p>
 <details><summary>Замечания реестра: 1</summary><ul><li>года нет в записи – в текст не писать</li></ul></details>
-</div><div class="card" data-id="251" data-marka="Subaru" data-status="net-foto">
-<div class="top"><b>№251 · Subaru Outback</b><span class="chip net-foto">нет фото</span></div>
+</div><div class="card" data-id="251" data-marka="Subaru" data-status="zhdyot">
+<div class="top"><b>№251 · Subaru Outback</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4L · 06.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола субару аутбек» – Новосибирск &gt;=3, Россия &gt;=196 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/subaru/teyes-cc4l-subaru-outback</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/239_Subaru Outback) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="250" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№250 · Toyota RAV4</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «239_Subaru Outback» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="250" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№250 · Toyota RAV4</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes LIXONE · 06.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
-<p class="meta">Адрес: <code>/work/toyota/teyes-lux-one-toyota-rav4</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/238_Toyota Rav 4) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="249" data-marka="Hyundai" data-status="net-foto">
-<div class="top"><b>№249 · Hyundai Creta</b><span class="chip net-foto">нет фото</span></div>
+<p class="meta">Запрос: «замена штатной навигации рав 4» – Новосибирск 0, Россия 0 в месяц · угол: LUX ONE вместо штатной навигации (на фото до – экран с картой)</p>
+<p class="meta">Адрес: <code>/work/toyota/teyes-lux-one-toyota-rav4-oem-navigation-replacement</code></p>
+<details><summary>Замечания реестра: 5</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «238_Toyota Rav 4» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (2)</li><li>решение по дублю: не дубль №231: на фото другая панель RAV4 и штатная навигация до установки</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="249" data-marka="Hyundai" data-status="zhdyot">
+<div class="top"><b>№249 · Hyundai Creta</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC2, камера заднего вида, рег · 06.26 · фото: 6 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «камера заднего вида хендай крета» – Новосибирск 6, Россия 731 в месяц · угол: камера заднего вида</p>
 <p class="meta">Адрес: <code>/work/hyundai/teyes-cc2-hyundai-creta-rear-camera-dashcam</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/237_Hyundai Creta) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="248" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№248 · Toyota Prius</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «237_Hyundai Creta» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="248" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№248 · Toyota Prius</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC2 7 дюймов, кастом · 06.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола тойота приус» – Новосибирск &gt;=13, Россия &gt;=229 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc2-7-inch-toyota-prius-custom-fit</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/236_Toyota Prius) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="247" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№247 · Toyota Highlander</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «236_Toyota Prius» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="247" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№247 · Toyota Highlander</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes CC4 pro, цифрового микрофона регистратора и задней камеры · 06.26 · фото: 7 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «камера заднего вида хайлендер» – Новосибирск 0, Россия &gt;=14 в месяц · угол: камера заднего вида</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-pro-toyota-highlander-rear-camera-dashcam</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/235_Toyota Highlander) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="246" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№246 · Honda CR-V</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «235_Toyota Highlander» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="246" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№246 · Honda CR-V</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">установка врезного микрофона в потолок · 06.26 · фото: 5 · услуга: доп. оборудование</p>
-<p class="meta">Запрос: своего запроса нет</p>
-<p class="meta">Адрес: <code>/work/honda/honda-cr-v</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>в записи «Toyota CR-V» – CR-V это Honda, уточнить машину</li><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/234_CRV) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="245" data-marka="Nissan" data-status="net-foto">
-<div class="top"><b>№245 · Nissan Juke</b><span class="chip net-foto">нет фото</span></div>
+<p class="meta">Запрос: своего запроса нет · угол: разовая работа, своего запроса нет</p>
+<p class="meta">Адрес: <code>/work/honda/honda-cr-v-ceiling-microphone</code></p>
+<details><summary>Замечания реестра: 4</summary><ul><li>в записи «Toyota CR-V» – CR-V это Honda, уточнить машину</li><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: по фото – последние три кадра папки «234_CRV» – потолок с врезным микрофоном и руль Honda; в записи 5 фото, найдено 3</li><li>решение по дублю: разовая работа – врезной микрофон в потолок; адрес уточнён</li></ul></details>
+</div><div class="card" data-id="245" data-marka="Nissan" data-status="zhdyot">
+<div class="top"><b>№245 · Nissan Juke</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Реализация штатного кругового обзора на ГУ Teyes CC3 2K · 06.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «штатный круговой обзор ниссан жук» – Новосибирск 0, Россия 0 в месяц · угол: штатный круговой обзор</p>
 <p class="meta">Адрес: <code>/work/nissan/teyes-cc3-2k-nissan-juke-oem-360</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/233_Nissan juke) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="244" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№244 · Honda Vezel, 2026</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: по фото – первые два кадра папки «234_CRV» – салон Nissan Juke с круговым обзором на экране; в записи 3 фото, найдено 2</li><li>мало фото (3)</li></ul></details>
+</div><div class="card" data-id="244" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№244 · Honda Vezel, 2026</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc2 plus · 06.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc2 plus хонда везел» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC2 Plus</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc2-plus-honda-vezel-2026</code></p>
-<details open><summary>Замечания реестра: 1</summary><ul><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/232_Honda vezel 2026) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="243" data-marka="Kia" data-status="net-foto">
-<div class="top"><b>№243 · Kia K5</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 1</summary><ul><li>фото из выгрузки Telegram, сопоставление: по фото – в папке «233_Nissan juke» три кадра салона Honda Vezel нового кузова (правый руль); в записи 2 фото</li></ul></details>
+</div><div class="card" data-id="243" data-marka="Kia" data-status="zhdyot">
+<div class="top"><b>№243 · Kia K5</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes CC3 2K · 06.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола киа к5» – Новосибирск 7, Россия &gt;=101 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/kia/teyes-cc3-2k-kia-k5</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/231_Kia optima) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="242" data-marka="Nissan" data-status="net-foto">
-<div class="top"><b>№242 · Nissan Qashqai J10</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 4</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: по фото – в папке «232_Honda vezel 2026» два кадра салона Kia K5/Optima; число кадров совпало с записью (2)</li><li>мало фото (2)</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="242" data-marka="Nissan" data-status="zhdyot">
+<div class="top"><b>№242 · Nissan Qashqai J10</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes CC4 pro · 06.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4 pro кашкай j10» – Новосибирск 0, Россия 0 в месяц · угол: кузов J10 (из записи мастера)</p>
 <p class="meta">Адрес: <code>/work/nissan/teyes-cc4-pro-nissan-qashqai-j10</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/230_Nissan qashqai j10) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="241" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№241 · Toyota Land Cruiser Prado 150</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 5</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: по фото – в папке «231_Kia optima» один кадр панели Nissan Qashqai J10 (круглые дефлекторы по центру, как у №195); в записи 2 фото, найден 1, на нём в кадре человек</li><li>мало фото (2)</li><li>решение по дублю: кузов J10 назван в записи – свой запрос; фото одно, на нём человек: если писатель кадр не возьмёт, работа уйдёт в «нет годных фото»</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="241" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№241 · Toyota Land Cruiser Prado 150</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes CC4 pro · 06.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4 pro прадо 150» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4 Pro</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-pro-toyota-land-cruiser-prado-150</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (путь не записан) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="240" data-marka="Suzuki" data-status="net-foto">
-<div class="top"><b>№240 · Suzuki Jimny</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: по фото – в папке «230_Nissan qashqai j10» лежат два кадра панели Toyota Prado 150 (до и после) – выгрузка сдвинута на одну работу; число кадров совпало с записью (2)</li><li>мало фото (2)</li></ul></details>
+</div><div class="card" data-id="240" data-marka="Suzuki" data-status="zhdyot">
+<div class="top"><b>№240 · Suzuki Jimny</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">cc4, динамики в передние двери, прикуриватель розетка, камера передного и заднего вида, рег, микро · 06.26 · фото: 9 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «передняя камера сузуки джимни» – Новосибирск 0, Россия &gt;=6 в месяц · угол: передняя камера</p>
 <p class="meta">Адрес: <code>/work/suzuki/teyes-cc4-suzuki-jimny-front-camera-dashcam-speakers</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/229_suzuki jimny_красивый) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="239" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№239 · Toyota Highlander</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «229_suzuki jimny_красивый» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="239" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№239 · Toyota Highlander</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro, цифрового регистратора и камеры заднего вида, парктроников 8 датчиков перед/зад, цифрового микрофона · 06.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «видеорегистратор хайлендер» – Новосибирск 0, Россия &gt;=46 в месяц · угол: видеорегистратор</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-pro-toyota-highlander-rear-camera-dashcam-parking-sensors</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/228_Toyota Highlander) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="238" data-marka="Hyundai" data-status="net-foto">
-<div class="top"><b>№238 · Hyundai Solaris</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «228_Toyota Highlander» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="238" data-marka="Hyundai" data-status="zhdyot">
+<div class="top"><b>№238 · Hyundai Solaris</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc3 2K 11 дюймов · 06.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола хендай солярис» – Новосибирск 68, Россия 8578 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/hyundai/teyes-cc3-2k-11-inch-hyundai-solaris</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/227_Hyundai Solaris) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="237" data-marka="Hyundai" data-status="net-foto">
-<div class="top"><b>№237 · Hyundai H-1</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «227_Hyundai Solaris» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="237" data-marka="Hyundai" data-status="zhdyot">
+<div class="top"><b>№237 · Hyundai H-1</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC4 · 06.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола хендай h1» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/hyundai/teyes-cc4-hyundai-h-1</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/226_Hyundai H-1,) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="236" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№236 · Toyota Wish</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «226_Hyundai H-1,» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="236" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№236 · Toyota Wish</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4, StarLine s96 gsm gps · 06.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола тойота виш» – Новосибирск &gt;=45, Россия &gt;=594 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-toyota-wish-starline-s96</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/225_Toyota wish) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="235" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№235 · Honda Freed</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «225_Toyota wish» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (3)</li></ul></details>
+</div><div class="card" data-id="235" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№235 · Honda Freed</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4, аналоговый видеорегистратор · 06.26 · фото: 7 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «видеорегистратор хонда фрид» – Новосибирск 9, Россия 217 в месяц · угол: видеорегистратор</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc4-honda-freed-dashcam</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/224_Honda freed) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="234" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№234 · Honda CR-V</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «224_Honda freed» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="234" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№234 · Honda CR-V</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc2 plus · 06.26 · фото: 6 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc2 plus хонда срв» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC2 Plus</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc2-plus-honda-cr-v</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/223_Honda crv_сохраниение штатных функций) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="233" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№233 · Honda WR-V</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «223_Honda crv_сохраниение штатных функций» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="233" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№233 · Honda WR-V</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc3L · 06.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола honda wr-v» – Новосибирск &gt;=1, Россия &gt;=40 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc3l-honda-wr-v</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/222_Honda wr-v) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="232" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№232 · Honda Stepwgn</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «222_Honda wr-v» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="232" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№232 · Honda Stepwgn</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro
 Подключение потолочного монитора · 06.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «потолочный монитор хонда степвагон» – Новосибирск &gt;=5, Россия &gt;=92 в месяц · угол: монитор для пассажиров</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc4-pro-honda-stepwgn-rear-monitor</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/221_Honda StepWGN_круто) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="231" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№231 · Toyota RAV4</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «221_Honda StepWGN_круто» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="231" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№231 · Toyota RAV4</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes LUXONE · 06.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes lux one рав 4» – Новосибирск 0, Россия &gt;=25 в месяц · угол: Teyes LUX ONE</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-lux-one-toyota-rav4</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/220_Toyota Rav 4) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="230" data-marka="UAZ" data-status="net-foto">
-<div class="top"><b>№230 · UAZ Profi</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «220_Toyota Rav 4» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="230" data-marka="UAZ" data-status="zhdyot">
+<div class="top"><b>№230 · UAZ Profi</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка андройд мультимедиа · 06.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола уаз профи» – Новосибирск 24, Россия 437 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/uaz/head-unit-uaz-profi</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>модель магнитолы в записи не названа или это не Teyes</li><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/219_УАЗ Профи) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="229" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№229 · Honda Fit</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>модель магнитолы в записи не названа или это не Teyes</li><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «219_УАЗ Профи» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="229" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№229 · Honda Fit</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC3 L 7 дюймов кастом в штатную рамку с подключением штатной камеры · 06.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола хонда фит в штатное место» – Новосибирск 0, Россия 0 в месяц · угол: установка без готовой рамки</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc3l-7-inch-honda-fit-custom-fit-oem-camera</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/218_Honda Fit,) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="228" data-marka="Suzuki" data-status="net-foto">
-<div class="top"><b>№228 · Suzuki Solio</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «218_Honda Fit,» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="228" data-marka="Suzuki" data-status="zhdyot">
+<div class="top"><b>№228 · Suzuki Solio</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC4, камера заднего вида · 06.26 · фото: 7 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола сузуки солио» – Новосибирск 36, Россия 497 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/suzuki/teyes-cc4-suzuki-solio-rear-camera</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/217_Suzuki Solio) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="227" data-marka="Kia" data-status="net-foto">
-<div class="top"><b>№227 · Kia Rio</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «217_Suzuki Solio» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="227" data-marka="Kia" data-status="zhdyot">
+<div class="top"><b>№227 · Kia Rio</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes  СС4 ,  Задние парктроники · 06.26 · фото: 8 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «парктроники киа рио» – Новосибирск &gt;=9, Россия &gt;=675 в месяц · угол: парктроники</p>
 <p class="meta">Адрес: <code>/work/kia/teyes-cc4-kia-rio-parking-sensors</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/216_Kia Rio) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «216_Kia Rio» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
 </div><div class="card" data-id="226" data-marka="Toyota" data-status="net-foto">
 <div class="top"><b>№226 · Toyota Camry</b><span class="chip net-foto">нет фото</span></div>
 <p class="meta">Teyes CC4 · 06.26 · фото: 4 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: своего запроса нет</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-toyota-camry</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/214_Toyota Camry) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="225" data-marka="Volkswagen" data-status="net-foto">
-<div class="top"><b>№225 · Volkswagen Transporter</b><span class="chip net-foto">нет фото</span></div>
+<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото нет: в папке «214_Toyota Camry» три кадра белой Toyota Corolla (панель и перед Corolla E210), а в записи Toyota Camry – машина на фото не совпала с записью, нужен ответ мастера</li></ul></details>
+</div><div class="card" data-id="225" data-marka="Volkswagen" data-status="zhdyot">
+<div class="top"><b>№225 · Volkswagen Transporter</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC4 Pro, видео регистатор Teyes , камера заднего вида, внешний микрофон teyes · 06.26 · фото: 13 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола фольксваген транспортер» – Новосибирск 0, Россия &gt;=53 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/volkswagen/teyes-cc4-pro-volkswagen-transporter-rear-camera-dashcam</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/213_Transporter VW,) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="224" data-marka="Land Rover" data-status="net-foto">
-<div class="top"><b>№224 · Land Rover Discovery 4</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «213_Transporter VW,» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="224" data-marka="Land Rover" data-status="zhdyot">
+<div class="top"><b>№224 · Land Rover Discovery 4</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes LUXONE и камеры заднего вида AHD · 06.26 · фото: 7 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола ленд ровер дискавери 4» – Новосибирск 0, Россия &gt;=18 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/landrover/teyes-lux-one-landrover-discovery-4-rear-camera</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/212_Land Rover discovery 4) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="223" data-marka="Audi" data-status="net-foto">
-<div class="top"><b>№223 · Audi A3L, 2022</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «212_Land Rover discovery 4» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="223" data-marka="Audi" data-status="zhdyot">
+<div class="top"><b>№223 · Audi A3L, 2022</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">установка сигнализации StarLine s96 · 06.26 · фото: 2 · услуга: сигнализация</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «сигнализация ауди а3» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/audi/starline-s96-audi-a3l-2022</code></p>
-<details open><summary>Замечания реестра: 1</summary><ul><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/211_Audi a3L 2022 из Китая_сигнализации) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="222" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№222 · Toyota C-HR</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>фото из выгрузки Telegram, сопоставление: высокая – папка «211_Audi a3L 2022 из Китая_сигнализации» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (2)</li></ul></details>
+</div><div class="card" data-id="222" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№222 · Toyota C-HR</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes CC4 с круговым обзором 360 AHD · 06.26 · фото: 11 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола toyota c-hr» – Новосибирск 0, Россия &gt;=6 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-toyota-c-hr-360-view</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/210_Toyota c-hr) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="221" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№221 · Honda Freed+</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «210_Toyota c-hr» записана у работы в cases.json, машина на кадрах совпала с записью; исключено: кадр салона Toyota Prado 150 с бежевым салоном попал в папку C-HR</li></ul></details>
+</div><div class="card" data-id="221" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№221 · Honda Freed+</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes CC4L · 05.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола хонда фрид» – Новосибирск 234, Россия 4755 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc4l-honda-freed-plus</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/209_Honda freed+) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="220" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№220 · Toyota Land Cruiser Prado 150</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «209_Honda freed+» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (2)</li></ul></details>
+</div><div class="card" data-id="220" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№220 · Toyota Land Cruiser Prado 150</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC4 · 05.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4 прадо 150» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-toyota-land-cruiser-prado-150</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/208_Toyota Prado 150) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="219" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№219 · Toyota Corolla Sport</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «208_Toyota Prado 150» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>в папке C-HR (№222) лежит ещё один кадр Prado 150 с бежевым салоном – возможно, четвёртое фото этой работы; не добавлен, нет уверенности</li></ul></details>
+</div><div class="card" data-id="219" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№219 · Toyota Corolla Sport</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC4 · 05.26 · фото: 6 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола тойота королла спорт» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-toyota-corolla-sport</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/207_Toyota Corolla Sport) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="218" data-marka="Mazda" data-status="net-foto">
-<div class="top"><b>№218 · Mazda Axela</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «207_Toyota Corolla Sport» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="218" data-marka="Mazda" data-status="zhdyot">
+<div class="top"><b>№218 · Mazda Axela</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC4 · 05.26 · фото: 6 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола мазда аксела» – Новосибирск 0, Россия &gt;=41 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/mazda/teyes-cc4-mazda-axela</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/206_Mazda Axela) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="217" data-marka="Mazda" data-status="net-foto">
-<div class="top"><b>№217 · Mazda 3</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «206_Mazda Axela» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="217" data-marka="Mazda" data-status="zhdyot">
+<div class="top"><b>№217 · Mazda 3</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC4 и Замена штатной акустики, в штатные места. · 05.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола мазда 3» – Новосибирск 126, Россия 6644 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/mazda/teyes-cc4-mazda-mazda3-speakers</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/205_Mazda 3_Акустика) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="216" data-marka="Suzuki" data-status="net-foto">
-<div class="top"><b>№216 · Suzuki Grand Vitara</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «205_Mazda 3_Акустика» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>на кадрах только акустика в синей двери; похоже, это та же синяя Mazda, что в №218 (Axela) – проверить, не одна ли это машина</li></ul></details>
+</div><div class="card" data-id="216" data-marka="Suzuki" data-status="zhdyot">
+<div class="top"><b>№216 · Suzuki Grand Vitara</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC4 · 05.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4 сузуки гранд витара» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4</p>
 <p class="meta">Адрес: <code>/work/suzuki/teyes-cc4-suzuki-grand-vitara</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/204_suzuki grand vitara) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="215" data-marka="Lada" data-status="net-foto">
-<div class="top"><b>№215 · Lada Priora</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «204_suzuki grand vitara» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="215" data-marka="Lada" data-status="zhdyot">
+<div class="top"><b>№215 · Lada Priora</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC3L · 05.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола лада приора» – Новосибирск 3, Россия 1064 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/lada/teyes-cc3l-lada-priora</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/203_Lada Приора) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="214" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№214 · Toyota Allion</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «203_Lada Приора» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="214" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№214 · Toyota Allion</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes CC4 · 05.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4 тойота аллион» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-toyota-allion</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/202_Allion) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="213" data-marka="Subaru" data-status="net-foto">
-<div class="top"><b>№213 · Subaru Forester</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «202_Allion» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>решение по дублю: не дубль №322: на фото Allion нового кузова, у №322 – машина 2002 года</li></ul></details>
+</div><div class="card" data-id="213" data-marka="Subaru" data-status="zhdyot">
+<div class="top"><b>№213 · Subaru Forester</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">сс4 · 05.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4 субару форестер» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4</p>
 <p class="meta">Адрес: <code>/work/subaru/teyes-cc4-subaru-forester</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/201_Subaru forester) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="212" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№212 · Toyota Raize</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «201_Subaru forester» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>решение по дублю: не дубль №361: на фото панель другого поколения Forester, чем у машины 2022 года</li></ul></details>
+</div><div class="card" data-id="212" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№212 · Toyota Raize</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">сс4 · 05.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола тойота райз» – Новосибирск 30, Россия 722 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-toyota-raize</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/200_Тойота Райз) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="211" data-marka="Kia" data-status="net-foto">
-<div class="top"><b>№211 · Kia Rio</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «200_Тойота Райз» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="211" data-marka="Kia" data-status="zhdyot">
+<div class="top"><b>№211 · Kia Rio</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Teyes cc4 pro , шумоизоляция всех дверей, задняя камера, звук саб DL и колонки blam · 05.26 · фото: 46 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола киа рио» – Новосибирск 169, Россия 17274 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/kia/teyes-cc4-pro-kia-rio-rear-camera-speakers-soundproofing</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/199_Кио Рио_Большой кейс_шумка_музыка) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="210" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№210 · Toyota Land Cruiser 100</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «199_Кио Рио_Большой кейс_шумка_музыка» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="210" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№210 · Toyota Land Cruiser 100</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro 360, AHD видеорегистратора с функцией ADAS · 05.26 · фото: 9 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола ленд крузер 100» – Новосибирск 16, Россия 492 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-pro-toyota-land-cruiser-100-360-view-dashcam</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/198_Toyota LC 100) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="209" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№209 · Toyota Harrier</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «198_Toyota LC 100» записана у работы в cases.json, машина на кадрах совпала с записью; исключено: рекламная картинка Teyes для Land Cruiser 100, не фото работы</li></ul></details>
+</div><div class="card" data-id="209" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№209 · Toyota Harrier</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4L · 05.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4l тойота харриер» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4L</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4l-toyota-harrier</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/197_Toyota harrier) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="208" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№208 · Honda CR-V</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «197_Toyota harrier» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="208" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№208 · Honda CR-V</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC4, саб Barracuda 10A Flat, динамики в передние двери · 05.26 · фото: 6 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «акустика хонда срв» – Новосибирск 0, Россия &gt;=12 в месяц · угол: акустика</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc4-honda-cr-v-speakers</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/196_Honda CRV) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="207" data-marka="Kia" data-status="net-foto">
-<div class="top"><b>№207 · Kia Sorento</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «196_Honda CRV» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="207" data-marka="Kia" data-status="zhdyot">
+<div class="top"><b>№207 · Kia Sorento</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC4 с подключением штатных камер кругового обзора · 05.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «штатный круговой обзор киа соренто» – Новосибирск 0, Россия 0 в месяц · угол: штатный круговой обзор</p>
 <p class="meta">Адрес: <code>/work/kia/teyes-cc4-kia-sorento-oem-360</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/195_Kia Sorento) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="206" data-marka="Lexus" data-status="net-foto">
-<div class="top"><b>№206 · Lexus LS 430</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «195_Kia Sorento» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="206" data-marka="Lexus" data-status="zhdyot">
+<div class="top"><b>№206 · Lexus LS 430</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">установка Teyes cc4 pro 360 11 дюймов
 С реализацией управления климат-контролем · 05.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола лексус ls 430» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/lexus/teyes-cc4-pro-11-inch-lexus-ls-430-360-view-climate-control</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/194_Lexus ls430) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="205" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№205 · Toyota Alphard H30</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «194_Lexus ls430» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="205" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№205 · Toyota Alphard H30</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка сигнализации с автозапуском Pandora uf3810 · 05.26 · фото: 2 · услуга: сигнализация</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «сигнализация альфард» – Новосибирск 0, Россия &gt;=5 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/pandora-uf3810-toyota-alphard-h30</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/193_Toyota alphard h30_Сигнализация) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="204" data-marka="Lexus" data-status="net-foto">
-<div class="top"><b>№204 · Lexus LX 470</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «193_Toyota alphard h30_Сигнализация» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (2)</li></ul></details>
+</div><div class="card" data-id="204" data-marka="Lexus" data-status="zhdyot">
+<div class="top"><b>№204 · Lexus LX 470</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Замена мультимедиа Teyes cc4L · 05.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4l лексус lx 470» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4L</p>
 <p class="meta">Адрес: <code>/work/lexus/teyes-cc4l-lexus-lx-470</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/192_Lexus lx470) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="203" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№203 · Toyota RAV4</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «192_Lexus lx470» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="203" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№203 · Toyota RAV4</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC4 · 05.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4 рав 4» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-toyota-rav4</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/191_Toyota RAV4) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="202" data-marka="Lexus" data-status="net-foto">
-<div class="top"><b>№202 · Lexus RX</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «191_Toyota RAV4» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="202" data-marka="Lexus" data-status="zhdyot">
+<div class="top"><b>№202 · Lexus RX</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">установка мультимедиа Teyes cc4 pro 360 · 05.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «круговой обзор лексус rx» – Новосибирск 0, Россия 0 в месяц · угол: круговой обзор 360</p>
 <p class="meta">Адрес: <code>/work/lexus/teyes-cc4-pro-lexus-rx-360-view</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/190_Lexus rx) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="201" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№201 · Honda Grace</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «190_Lexus rx» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="201" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№201 · Honda Grace</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC3L, подключение штатной камеры заднего вида с динамическими линиями · 05.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола хонда грейс» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc3l-honda-grace-oem-camera</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/189_Honda Grace) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «189_Honda Grace» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
 </div><div class="card" data-id="200" data-marka="Zeekr" data-status="net-foto">
 <div class="top"><b>№200 · Zeekr 001, 2025</b><span class="chip net-foto">нет фото</span></div>
 <p class="meta">Русификация, обновление · 04.26 · фото: 0 · услуга: русификация</p>
@@ -1123,177 +1170,177 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <p class="meta">Запрос: своего запроса нет</p>
 <p class="meta">Адрес: <code>/work/zeekr/zeekr-001</code></p>
 <details open><summary>Замечания реестра: 2</summary><ul><li>раздела /work/zeekr на сайте нет – завести или выбрать другой</li><li>года нет в записи – в текст не писать</li></ul></details>
-</div><div class="card" data-id="198" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№198 · Honda Stepwgn</b><span class="chip net-foto">нет фото</span></div>
+</div><div class="card" data-id="198" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№198 · Honda Stepwgn</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4L с реализацией штатного кругового обзора · 04.26 · фото: 6 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «штатный круговой обзор хонда степвагон» – Новосибирск 0, Россия 0 в месяц · угол: штатный круговой обзор</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc4l-honda-stepwgn-oem-360</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/188_Honda Stepwgn) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="197" data-marka="Mitsubishi" data-status="net-foto">
-<div class="top"><b>№197 · Mitsubishi L200</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «188_Honda Stepwgn» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="197" data-marka="Mitsubishi" data-status="zhdyot">
+<div class="top"><b>№197 · Mitsubishi L200</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc3L · 04.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола митсубиси l200» – Новосибирск 0, Россия &gt;=14 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/mitsubishi/teyes-cc3l-mitsubishi-l200</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/187_Mitsubishi l200) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="196" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№196 · Honda Stream</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «187_Mitsubishi l200» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="196" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№196 · Honda Stream</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Widemedia · 04.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола хонда стрим» – Новосибирск 106, Россия 971 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/honda/widemedia-honda-stream</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>магнитола не Teyes (Widemedia) – решить, писать ли</li><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/186_Honda stream_Widemedia) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="195" data-marka="Nissan" data-status="net-foto">
-<div class="top"><b>№195 · Nissan Qashqai J10</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>магнитола не Teyes (Widemedia) – решить, писать ли</li><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «186_Honda stream_Widemedia» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="195" data-marka="Nissan" data-status="zhdyot">
+<div class="top"><b>№195 · Nissan Qashqai J10</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc3L · 04.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc3l ниссан кашкай» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC3L</p>
 <p class="meta">Адрес: <code>/work/nissan/teyes-cc3l-nissan-qashqai-j10</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/185_Nissan Qashqai J10) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="194" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№194 · Honda N-WGN</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «185_Nissan Qashqai J10» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="194" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№194 · Honda N-WGN</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc2 plus · 04.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола honda n-wgn» – Новосибирск &gt;=23, Россия &gt;=207 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc2-plus-honda-n-wgn</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/184_Honda n-wgn) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="193" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№193 · Toyota C-HR</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «184_Honda n-wgn» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="193" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№193 · Toyota C-HR</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro 360 · 04.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «круговой обзор toyota c-hr» – Новосибирск 0, Россия 0 в месяц · угол: круговой обзор 360</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-pro-toyota-c-hr-360-view</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/183_Toyota c-hr) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="192" data-marka="Kia" data-status="net-foto">
-<div class="top"><b>№192 · Kia Pegas</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «183_Toyota c-hr» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="192" data-marka="Kia" data-status="zhdyot">
+<div class="top"><b>№192 · Kia Pegas</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа NO NAME · 04.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола киа пегас» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/kia/head-unit-kia-pegas</code></p>
-<details open><summary>Замечания реестра: 4</summary><ul><li>модель магнитолы в записи не названа или это не Teyes</li><li>магнитола без марки (NO NAME) – решить, писать ли</li><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/182_Kia Pegas_NO NAME) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="191" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№191 · Toyota Harrier</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 5</summary><ul><li>модель магнитолы в записи не названа или это не Teyes</li><li>магнитола без марки (NO NAME) – решить, писать ли</li><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «182_Kia Pegas_NO NAME» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (2)</li></ul></details>
+</div><div class="card" data-id="191" data-marka="Toyota" data-status="dubl">
+<div class="top"><b>№191 · Toyota Harrier</b><span class="chip dubl">дубль</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4L · 04.26 · фото: 3 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: своего запроса нет</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4l-toyota-harrier</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/181_Toyota harrier) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="190" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№190 · Toyota Land Cruiser 200</b><span class="chip net-foto">нет фото</span></div>
+<details open><summary>Замечания реестра: 5</summary><ul><li>объединить с №209</li><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «181_Toyota harrier» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (3)</li><li>решение по дублю: тот же Harrier с правым рулём и та же CC4L, что у №209 (панели на фото одинаковые)</li></ul></details>
+</div><div class="card" data-id="190" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№190 · Toyota Land Cruiser 200</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 AHD камеры переднего и заднего вида в штатные места · 04.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «передняя камера ленд крузер 200» – Новосибирск 0, Россия 96 в месяц · угол: передняя камера</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-toyota-land-cruiser-200-front-camera</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/180_Toyota LC 200) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="189" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№189 · Toyota RAV4</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «180_Toyota LC 200» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="189" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№189 · Toyota RAV4</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc3L · 04.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc3l рав 4» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC3L</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc3l-toyota-rav4</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/179_Toyota Rav 4) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="188" data-marka="Peugeot" data-status="net-foto">
-<div class="top"><b>№188 · Peugeot 4008</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «179_Toyota Rav 4» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="188" data-marka="Peugeot" data-status="zhdyot">
+<div class="top"><b>№188 · Peugeot 4008</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro, цифрового регистратора переднего вида и цифровой камеры заднего вида · 04.26 · фото: 6 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола пежо 4008» – Новосибирск 0, Россия &gt;=6 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/peugeot/teyes-cc4-pro-peugeot-4008-rear-camera-dashcam</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/178_Peugeot 4008) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="187" data-marka="Mazda" data-status="net-foto">
-<div class="top"><b>№187 · Mazda CX-5</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «178_Peugeot 4008» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="187" data-marka="Mazda" data-status="zhdyot">
+<div class="top"><b>№187 · Mazda CX-5</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC3L, камера заднего вида · 04.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «камера заднего вида мазда сх 5» – Новосибирск &gt;=2, Россия &gt;=192 в месяц · угол: камера заднего вида</p>
 <p class="meta">Адрес: <code>/work/mazda/teyes-cc3l-mazda-cx-5-rear-camera</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/167_mazda cx-5) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="186" data-marka="Hyundai" data-status="net-foto">
-<div class="top"><b>№186 · Hyundai Creta</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «167_mazda cx-5» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (3)</li></ul></details>
+</div><div class="card" data-id="186" data-marka="Hyundai" data-status="zhdyot">
+<div class="top"><b>№186 · Hyundai Creta</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC4 Pro, микрофон. с сохранением штатной камеры заднего хода и штатного usb · 04.26 · фото: 6 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «штатная камера хендай крета teyes» – Новосибирск 0, Россия 0 в месяц · угол: штатная камера</p>
 <p class="meta">Адрес: <code>/work/hyundai/teyes-cc4-pro-hyundai-creta-oem-camera</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/166_Hyundai Creta) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="185" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№185 · Honda XR-V</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «166_Hyundai Creta» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="185" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№185 · Honda XR-V</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC4L, доукомплектация Full HD Teyes камеры заднего вида с динамическими линиями разметки · 04.26 · фото: 8 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола honda xr-v» – Новосибирск 0, Россия &gt;=6 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc4l-honda-xr-v-rear-camera</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/165_Honda XR-V) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="184" data-marka="Hyundai" data-status="net-foto">
-<div class="top"><b>№184 · Hyundai Santa Fe</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «165_Honda XR-V» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="184" data-marka="Hyundai" data-status="zhdyot">
+<div class="top"><b>№184 · Hyundai Santa Fe</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">LuxOne · 04.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes lux one хендай санта фе» – Новосибирск 0, Россия 0 в месяц · угол: Teyes LUX ONE</p>
 <p class="meta">Адрес: <code>/work/hyundai/teyes-lux-one-hyundai-santa-fe</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/164_Hyundai Santa fe) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="183" data-marka="Honda" data-status="net-foto">
-<div class="top"><b>№183 · Honda Domani</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «164_Hyundai Santa fe» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="183" data-marka="Honda" data-status="zhdyot">
+<div class="top"><b>№183 · Honda Domani</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc3L · 04.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола хонда домани» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc3l-honda-domani</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/163_Honda domani) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="182" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№182 · Toyota Tundra</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «163_Honda domani» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (2)</li></ul></details>
+</div><div class="card" data-id="182" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№182 · Toyota Tundra</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro 13 дюймов, системы помощи при парковке, цифровой камеры в штатное место. · 04.26 · фото: 11 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола тойота тундра» – Новосибирск 14, Россия 148 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-pro-13-inch-toyota-tundra-parking-sensors</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/162_Toyota tundra) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="181" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№181 · Toyota Caldina</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «162_Toyota tundra» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="181" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№181 · Toyota Caldina</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC4L · 04.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола тойота калдина» – Новосибирск 26, Россия 453 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4l-toyota-caldina</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/161_Toyota Caldina) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="180" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№180 · Toyota Sienna, 2025</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «161_Toyota Caldina» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (3)</li></ul></details>
+</div><div class="card" data-id="180" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№180 · Toyota Sienna, 2025</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes luxone с круговым обзором 360 · 04.26 · фото: 8 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола тойота сиенна» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-lux-one-toyota-sienna-2025-360-view</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/160_Toyota Sienna 2025) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="179" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№179 · Toyota Allion T240</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>фото из выгрузки Telegram, сопоставление: высокая – папка «160_Toyota Sienna 2025» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="179" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№179 · Toyota Allion T240</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc3 L · 03.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc3l тойота аллион» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC3L</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc3l-toyota-allion-t240</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/159_Toyota Allion t240) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="178" data-marka="Hyundai" data-status="net-foto">
-<div class="top"><b>№178 · Hyundai Santa Fe, 2018</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «159_Toyota Allion t240» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (2)</li></ul></details>
+</div><div class="card" data-id="178" data-marka="Hyundai" data-status="zhdyot">
+<div class="top"><b>№178 · Hyundai Santa Fe, 2018</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc3 2k · 03.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc3 2k хендай санта фе» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC3 2K</p>
 <p class="meta">Адрес: <code>/work/hyundai/teyes-cc3-2k-hyundai-santa-fe-2018</code></p>
-<details open><summary>Замечания реестра: 1</summary><ul><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/158_Hyundai Santa Fe 2018) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="177" data-marka="Nissan" data-status="net-foto">
-<div class="top"><b>№177 · Nissan Qashqai</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>фото из выгрузки Telegram, сопоставление: высокая – папка «158_Hyundai Santa Fe 2018» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (2)</li></ul></details>
+</div><div class="card" data-id="177" data-marka="Nissan" data-status="zhdyot">
+<div class="top"><b>№177 · Nissan Qashqai</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro · 03.26 · фото: 2 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4 pro ниссан кашкай» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4 Pro</p>
 <p class="meta">Адрес: <code>/work/nissan/teyes-cc4-pro-nissan-qashqai</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/157_Nissan Qashqai) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="176" data-marka="UAZ" data-status="net-foto">
-<div class="top"><b>№176 · UAZ Patriot</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 4</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «157_Nissan Qashqai» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (2)</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="176" data-marka="UAZ" data-status="zhdyot">
+<div class="top"><b>№176 · UAZ Patriot</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">СС2, камера заднего вида, 4 динамика · 03.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола уаз патриот» – Новосибирск 143, Россия 8182 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/uaz/teyes-cc2-uaz-patriot-rear-camera-speakers</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/156_Уаз патриот) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="175" data-marka="Subaru" data-status="net-foto">
-<div class="top"><b>№175 · Subaru Forester, 2021</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «156_Уаз патриот» записана у работы в cases.json, машина на кадрах совпала с записью</li></ul></details>
+</div><div class="card" data-id="175" data-marka="Subaru" data-status="zhdyot">
+<div class="top"><b>№175 · Subaru Forester, 2021</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro · 03.26 · фото: 3 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «teyes cc4 pro субару форестер» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4 Pro</p>
 <p class="meta">Адрес: <code>/work/subaru/teyes-cc4-pro-subaru-forester-2021</code></p>
-<details open><summary>Замечания реестра: 1</summary><ul><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/155_Subaru forester 2021) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="174" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№174 · Toyota Highlander</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>фото из выгрузки Telegram, сопоставление: высокая – папка «155_Subaru forester 2021» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>мало фото (3)</li></ul></details>
+</div><div class="card" data-id="174" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№174 · Toyota Highlander</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro с круговым обзором, цифрового регистратора. · 03.26 · фото: 8 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «круговой обзор хайлендер» – Новосибирск 0, Россия 0 в месяц · угол: круговой обзор 360</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-pro-toyota-highlander-360-view-dashcam</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/154_Toyota Highlander) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="173" data-marka="Toyota" data-status="net-foto">
-<div class="top"><b>№173 · Toyota RAV4</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «154_Toyota Highlander» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="173" data-marka="Toyota" data-status="zhdyot">
+<div class="top"><b>№173 · Toyota RAV4</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">CC4, парктроники в круг, цифровой микро, рег, камера заднего вида · 03.26 · фото: 10 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «камера заднего вида рав 4» – Новосибирск &gt;=2, Россия &gt;=567 в месяц · угол: камера заднего вида</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-toyota-rav4-rear-camera-dashcam-parking-sensors</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/153_Toyota Rav4) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
-</div><div class="card" data-id="172" data-marka="Infiniti" data-status="net-foto">
-<div class="top"><b>№172 · Infiniti QX80</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «153_Toyota Rav4» записана у работы в cases.json, машина на кадрах совпала с записью; исключено: кадр салона Infiniti QX80 (работа №172) попал в папку RAV4</li></ul></details>
+</div><div class="card" data-id="172" data-marka="Infiniti" data-status="zhdyot">
+<div class="top"><b>№172 · Infiniti QX80</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro 360 · 03.26 · фото: 5 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
+<p class="meta">Запрос: «магнитола инфинити qx80» – Новосибирск 0, Россия 78 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/infiniti/teyes-cc4-pro-infiniti-qx80-360-view</code></p>
-<details open><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/152_Infiniti qx80) – на сервере и в локальной копии их нет, нужен доступ</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="171" data-marka="Subaru" data-status="net-foto">
-<div class="top"><b>№171 · Subaru Forester</b><span class="chip net-foto">нет фото</span></div>
+<details><summary>Замечания реестра: 4</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «152_Infiniti qx80» записана у работы в cases.json, машина на кадрах совпала с записью; добавлен кадр из папки «153_Toyota Rav4»: салон Infiniti QX80 (та же панель с деревом, что на кадре из своей папки) с круговым обзором на экране</li><li>пятый кадр этой работы (салон QX80 с круговым обзором на экране) лежит в папке RAV4 «153_Toyota Rav4»; добавлен отсюда</li><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
+</div><div class="card" data-id="171" data-marka="Subaru" data-status="zhdyot">
+<div class="top"><b>№171 · Subaru Forester</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro · 03.26 · фото: 4 · услуга: мультимедиа Teyes</p>
-<p class="meta">Запрос: своего запроса нет</p>
-<p class="meta">Адрес: <code>/work/subaru/teyes-cc4-pro-subaru-forester</code></p>
-<details open><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>фото есть только на Яндекс Диске (disk:/TEYES Case Studio/Кейсы из Telegram/151_Subaru forester) – на сервере и в локальной копии их нет, нужен доступ</li></ul></details>
+<p class="meta">Запрос: «замена магнитолы субару форестер» – Новосибирск 0, Россия &gt;=32 в месяц · угол: праворульный Forester прошлого поколения (видно на фото)</p>
+<p class="meta">Адрес: <code>/work/subaru/teyes-cc4-pro-subaru-forester-rhd</code></p>
+<details><summary>Замечания реестра: 3</summary><ul><li>года нет в записи – в текст не писать</li><li>фото из выгрузки Telegram, сопоставление: высокая – папка «151_Subaru forester» записана у работы в cases.json, машина на кадрах совпала с записью</li><li>решение по дублю: не дубль №175: на фото другая панель и правый руль, у №175 – Forester 2021 года</li></ul></details>
 </div>
 <h2>Дубли: объединить, а не плодить страницы</h2>
-<div class="box"><p class="sub">Одна машина, одно устройство, один состав работ – отдельная страница делила бы запрос с соседней. Фото и детали такой работы лучше добавить в главную страницу.</p><ul><li>№274 Toyota Land Cruiser Prado – Установка мультимедиа Teyes cc4 pro 360, 6 камер: объединить с №337</li><li>№271 Toyota Funcargo – CC3, передняя камера, задняя камера: объединить с №273</li><li>№270 Toyota Funcargo – CC3, передняя камера, камера заднего вида: объединить с №273</li><li>№254 Toyota Land Cruiser 200 – Установка мультимедиа CC4 pro 360: объединить с №338</li></ul></div>
+<div class="box"><p class="sub">Одна машина, одно устройство, один состав работ – отдельная страница делила бы запрос с соседней. Фото и детали такой работы лучше добавить в главную страницу.</p><ul><li>№271 Toyota Funcargo – CC3, передняя камера, задняя камера: объединить с №273</li><li>№270 Toyota Funcargo – CC3, передняя камера, камера заднего вида: объединить с №273</li><li>№254 Toyota Land Cruiser 200 – Установка мультимедиа CC4 pro 360: объединить с №338</li><li>№191 Toyota Harrier – Установка мультимедиа Teyes cc4L: объединить с №209</li></ul></div>
 <h2>Библиотека призывов</h2>
 <div class="box scroll"><table class="tbl"><tr><th>№</th><th>Призыв</th><th>Теплота</th><th>Где ставить</th></tr><tr><td>CTA-01</td><td>Подбор по поколению – плашка в строку</td><td>холодный</td><td>Начало статьи, сразу после вступления. Подставить модель и ссылку на её страницу</td></tr><tr><td>CTA-02</td><td>«Посчитаем прямо сейчас» – фото панели</td><td>тёплый</td><td>Середина статьи – после таблицы поколений или списка моделей</td></tr><tr><td>CTA-03</td><td>Менеджер с живым фото и телефоном</td><td>горячий</td><td>Конец статьи перед вопросами; в кейсе – после результата</td></tr><tr><td>CTA-04</td><td>Шоурум: сравнить экраны вживую</td><td>тёплый</td><td>Середина или конец статей-сравнений моделей</td></tr><tr><td>CTA-05</td><td>Конструктор запроса «что сохранить»</td><td>горячий</td><td>Середина – после блока «что сохранится из штатного». Свой список поколений под модель</td></tr><tr><td>CTA-06</td><td>«Поставим так же» с ценой от 4 500 ₽</td><td>горячий</td><td>Кейс – после фото и результата; рядом с ценой</td></tr><tr><td>CTA-07</td><td>Акция: камера в подарок, промокод САЙТ</td><td>горячий</td><td>Рядом с ценой, конец статьи. Только пока акция стоит на сайте</td></tr><tr><td>CTA-08</td><td>Гарантия 1 год и официальный дилер</td><td>тёплый</td><td>После блока о рисках или «что сохранится»</td></tr><tr><td>CTA-09</td><td>Отзыв клиента + подбор под бюджет</td><td>тёплый</td><td>Середина – после сравнения моделей</td></tr><tr><td>CTA-10</td><td>Было – стало: японская магнитола и Teyes</td><td>тёплый</td><td>Статьи про японские авто, середина</td></tr><tr><td>CTA-11</td><td>Русификация или замена – плашка</td><td>холодный</td><td>Начало статей про русификацию; блок «из Японии» в статьях моделей</td></tr><tr><td>CTA-12</td><td>Русификация китайского автомобиля</td><td>холодный</td><td>Статьи про китайские авто, начало или середина</td></tr><tr><td>CTA-13</td><td>Комплекты для автосервисов</td><td>холодный</td><td>Конец статьи, страница комплектов, кейсы с редкой рамкой</td></tr><tr><td>CTA-14</td><td>Магнитола в подарок – плашка</td><td>холодный</td><td>Сезонные статьи (Новый год, 23 февраля), конец</td></tr><tr><td>CTA-15</td><td>Оплата частями</td><td>горячий</td><td>Рядом с ценой, после цен в каталоге или статье</td></tr><tr><td>CTA-16</td><td>Адрес и карта «Приезжайте»</td><td>горячий</td><td>Конец статьи и кейса, вместо общего блока контактов</td></tr><tr><td>CTA-17</td><td>Все каналы плитками</td><td>тёплый</td><td>Конец статьи, страница «Контакты»</td></tr><tr><td>CTA-18</td><td>Выездная установка – плашка</td><td>тёплый</td><td>Конец статьи или кейса, страницы установки</td></tr><tr><td>CTA-19</td><td>Сигнализация в тот же визит</td><td>тёплый</td><td>Конец статьи про магнитолу, кейсы с ноября по март</td></tr><tr><td>CTA-20</td><td>Липкая полоса на телефоне</td><td>горячий</td><td>Низ экрана на телефоне после 500 px прокрутки, на всех статьях и кейсах; прячется у финального блока</td></tr></table></div>
 </div><script>

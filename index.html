@@ -67,23 +67,23 @@ html[data-theme=dark] #tema-btn{background:#2a2d33!important;color:#f2f2f0!impor
 </style><script>(function(){var t;try{t=localStorage.getItem('tema')}catch(e){}
 if(!t){var h=new Date().getHours();t=(h>=19||h<7||(matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches))?'dark':'light'}
 document.documentElement.setAttribute('data-theme',t)})();</script></head><body><div class="wrap">
-<p class="sub">TEYES Sibir · страница проверки · обновлено 18.11.2026 00:54 НСК</p>
+<p class="sub">TEYES Sibir · страница проверки · обновлено 18.11.2026 01:09 НСК</p>
 <h1>Статьи о работах мастеров – на проверку</h1>
 <p>Работы №171–368, которых ещё нет на сайте: реестр, статус и готовые страницы в том виде, в каком они встанут на сайт. На сайт и в Тильду отсюда ничего не уходит.</p>
 <div class="nums">
 <div class="box"><b>243</b>работ в реестре</div>
-<div class="box"><b>95</b>готово</div>
-<div class="box"><b>140</b>ждут писателя</div>
-<div class="box"><b>0</b>с ошибкой</div>
+<div class="box"><b>104</b>готово</div>
+<div class="box"><b>130</b>ждут писателя</div>
+<div class="box"><b>1</b>с ошибкой</div>
 <div class="box"><b>3</b>нет фото<br><span class="sub">из них 2 – фото только на Яндекс Диске</span></div>
 <div class="box"><b>5</b>дубли</div>
 </div>
 <div class="note"><b>Призывы меняются сразу во всех статьях.</b> В каждой статье стоят только номера трёх призывов и липкая полоса, сама разметка лежит в одном файле <code>cta/bloki.py</code>. Поправили текст призыва или заменили один номер на другой (<code>ZAMENA</code> в том же файле) – одна команда <code>.venv/bin/python scripts/sobrat.py --vse</code> пересобирает все статьи. Сейчас призывы расставлены произвольно по правилу «холодный в начале, тёплый в середине, горячий в конце».</div>
-<div class="box"><p><b>Ход.</b> В среднем 4,1 мин на статью (по готовым, при трёх писателях одновременно). Прогноз на оставшиеся 140: 3.2 ч при трёх писателях. Спрос Вордстата (XMLRiver): 474 обращений ≈ 11.85 ₽.</p>
+<div class="box"><p><b>Ход.</b> В среднем 4,0 мин на статью (по готовым, при трёх писателях одновременно). Прогноз на оставшиеся 130: 2.9 ч при трёх писателях. Спрос Вордстата (XMLRiver): 474 обращений ≈ 11.85 ₽.</p>
 <p class="sub">Спрос – частота точной формулировки в месяц; «&gt;=N» – головной строки в Вордстате нет, это нижняя граница; «нет данных» – провайдер не ответил.</p></div>
 <div class="filt">
 <select id="f-marka" aria-label="Марка"><option value="">Все марки</option><option>Audi</option><option>BMW</option><option>Daihatsu</option><option>Ford</option><option>GAZ</option><option>Geely</option><option>Honda</option><option>Hyundai</option><option>Infiniti</option><option>Jeep</option><option>Kia</option><option>Lada</option><option>Land Rover</option><option>Lexus</option><option>Mazda</option><option>Mercedes-Benz</option><option>Mitsubishi</option><option>Nissan</option><option>Peugeot</option><option>Porsche</option><option>Renault</option><option>Skoda</option><option>Subaru</option><option>Suzuki</option><option>Toyota</option><option>UAZ</option><option>Volkswagen</option><option>Volvo</option><option>Zeekr</option></select>
-<select id="f-status" aria-label="Статус"><option value="">Все статусы</option><option value="gotovo">готово (95)</option><option value="zhdyot">ждёт (140)</option><option value="oshibka">ошибка (0)</option><option value="net-foto">нет фото (3)</option><option value="dubl">дубль (5)</option></select>
+<select id="f-status" aria-label="Статус"><option value="">Все статусы</option><option value="gotovo">готово (104)</option><option value="zhdyot">ждёт (130)</option><option value="oshibka">ошибка (1)</option><option value="net-foto">нет фото (3)</option><option value="dubl">дубль (5)</option></select>
 <input id="f-q" type="search" placeholder="Поиск: модель, устройство, номер" aria-label="Поиск">
 <span class="sub" id="f-n" style="align-self:center"></span>
 </div>
@@ -1470,56 +1470,105 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <details open><summary>Что проверить владельцу: 6</summary><ul><li>Год 2026 – из записи мастера; по фото это Honda Vezel нового кузова (RV, с 2021 года). Год точно 2026?</li><li>Правый руль виден на фото 3 – в записи об этом нет, в тексте написано «руль правый».</li><li>Автозапуск на StarLine S97 настраивали? В записи нет – в тексте обе цены (с автозапуском и без), про автозапуск на этой машине ничего не сказано.</li><li>Где стоит метка и блок StarLine, подключение к штатным ключам и приложение – в записи нет, в тексте про это ничего.</li><li>Камера, микрофон, кнопки руля для Teyes CC4 – не упомянуты в записи и не видны на фото, в тексте их нет. Делали ли что-то из этого?</li><li>Размер экрана Teyes CC4 в записи не указан – в тексте не назван.</li></ul></details>
 <details><summary>Фото: взято 3 из 3</summary><ul><li>взят · номер: zakryt · белый Honda Vezel спереди в цехе, коробка StarLine S97 на капоте; госномер снят прямо, закрыт по рамке детектора, лупой проверено – знаков не видно</li><li>взят · номер: net · экран Teyes CC4 крупно с рабочим столом, под ним аварийка и климат; рамка детектора на экране – не номер (--ne-nomer)</li><li>взят · номер: net · салон с правым рулём в чехле TEYES Sibir, экран Teyes CC4, коробка S97 у лобового; рамка детектора на экране – не номер (--ne-nomer); за стеклом наклейка на стене цеха, номеров нет</li></ul></details>
 <p class="meta">Призывы: CTA-01 → CTA-19 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
-</div><div class="card" data-id="268" data-marka="Kia" data-status="zhdyot">
-<div class="top"><b>№268 · Kia Mohave, 2012</b><span class="chip zhdyot">ждёт</span></div>
+</div><div class="card" data-id="268" data-marka="Kia" data-status="gotovo">
+<div class="top"><b>№268 · Kia Mohave, 2012</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка мультимедиа Teyes cc3 2k · 24.08.2026 · фото: 4 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола киа мохаве» – Новосибирск 0, Россия 293 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/kia/teyes-cc3-2k-kia-mohave-2012</code></p>
-</div><div class="card" data-id="267" data-marka="Lexus" data-status="zhdyot">
-<div class="top"><b>№267 · Lexus RX, 2013</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/268/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола Teyes CC3 2K на Kia Mohave в Новосибирске</b><br>Kia Mohave 2012: вместо штатной DVD-навигации поставили Teyes CC3 2K. На фото – экран над блоком климата, Android, карта и радио. Фото до и после.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 51 зн., description 146 зн., фото 4, ссылок 32</p></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Дата: в записи 24.08.2026, а на экране Teyes на фото после установки – «ПТ 21.08». Какая дата работы верная?</li><li>Размер экрана Teyes CC3 2K на этом Mohave (9 или 10 дюймов) и рамка в записи не названы – в тексте их нет. Подтвердить, если нужно добавить.</li><li>Камера заднего вида, кнопки руля, штатный звук – ни в записи, ни на фото их нет. Подключали ли их? Сейчас в тексте только совет сказать о них при заказе.</li><li>Шаг «сняли штатную DVD-магнитолу» выведен из фото до и после – подтвердить, что штатный блок сняли, а не оставили за панелью.</li><li>Кузов в записи не указан, в тексте его нет. Если нужен – назвать поколение (первое, HM) по слову мастера.</li></ul></details>
+<details><summary>Фото: взято 4 из 4</summary><ul><li>взят · номер: net · до: штатная DVD-магнитола с навигацией в консоли; в подстаканнике мелкая картинка-иконка, живых лиц нет</li><li>взят · номер: net · до: вид с места водителя, руль в чехле TEYES SIBIR, штатная магнитола</li><li>взят · номер: net · после: Teyes CC3 2K крупно, рабочий стол Android, часы и климат ниже – первый экран; иконка в подстаканнике мелкая</li><li>взят · номер: net · после: вид с места водителя, руль в чехле, экран Teyes CC3 2K в консоли; в углу край колена мастера, лица нет</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 2 мин</p>
+</div><div class="card" data-id="267" data-marka="Lexus" data-status="gotovo">
+<div class="top"><b>№267 · Lexus RX, 2013</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка мультимедиа Teyes Luxtwo · 24.08.2026 · фото: 4 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «teyes lux two лексус rx» – Новосибирск 0, Россия 0 в месяц · угол: Teyes LUX TWO</p>
 <p class="meta">Адрес: <code>/work/lexus/teyes-lux-two-lexus-rx-2013</code></p>
-</div><div class="card" data-id="266" data-marka="Toyota" data-status="zhdyot">
-<div class="top"><b>№266 · Toyota Land Cruiser 200, 2018</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/267/">Открыть как на сайте</a>
+<p class="meta"><b>Teyes LUX TWO на Lexus RX 2013 – установка, Новосибирск</b><br>Lexus RX 2013 (AL10): вместо штатного экрана в нише торпедо поставили широкий Teyes LUX TWO. Фото до и после, панель с CD и климатом на месте.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 55 зн., description 142 зн., фото 3, ссылок 33</p></details>
+<details open><summary>Что проверить владельцу: 4</summary><ul><li>год/кузов определён по фото: в записи только «2013 год», кузов AL10 – по форме ниши штатного экрана, панели с CD и климатом и джойстику Remote Touch на тоннеле.</li><li>Модель в записи – «Teyes Luxtwo», на фото надписи модели нет. Подтвердить, что это именно Teyes LUX TWO, и есть ли он в каталоге сайта для Lexus RX.</li><li>Кнопки руля, штатный звук, камера заднего вида и микрофон не упомянуты ни в записи, ни на фото – в тексте про них нет. Сохранились ли кнопки руля?</li><li>Панель CD и блок климата на фото после установки стоят на местах – подтвердить, что CD-привод и кнопки радио продолжают работать.</li></ul></details>
+<details><summary>Фото: взято 3 из 4</summary><ul><li>взят · номер: net · до установки: салон, штатный экран в нише торпедо; номеров нет</li><li>не взят · номер: net · консоль с заставкой Teyes – дубль ракурса кадра 003, справа в кадре голое колено человека; взят 003</li><li>взят · номер: net · центральная консоль после установки, экран Teyes LUX TWO с заставкой, вертикальный</li><li>взят · номер: net · салон после установки, рабочий стол Teyes на экране; на обложке трека мелкая фигура, лица не различить – первый экран</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-04 → CTA-06 + полоса CTA-20 · написано за 2 мин</p>
+</div><div class="card" data-id="266" data-marka="Toyota" data-status="gotovo">
+<div class="top"><b>№266 · Toyota Land Cruiser 200, 2018</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 pro · 24.08.2026 · фото: 8 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «teyes cc4 pro ленд крузер 200» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4 Pro</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-pro-toyota-land-cruiser-200-2018</code></p>
+<a class="btn" href="k/266/">Открыть как на сайте</a>
+<p class="meta"><b>Land Cruiser 200 2018 с JBL: Teyes CC4 Pro, Новосибирск</b><br>Toyota Land Cruiser 200 2018 со штатной системой JBL Synthesis: мастера поставили Teyes CC4 Pro. На фото – панель до и после, кнопки и климат на местах.</p>
 <details><summary>Замечания реестра: 1</summary><ul><li>на сайте уже есть страница про эту модель с тем же устройством – держать свой угол</li></ul></details>
-</div><div class="card" data-id="265" data-marka="Nissan" data-status="zhdyot">
-<div class="top"><b>№265 · Nissan Juke, 2015</b><span class="chip zhdyot">ждёт</span></div>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 55 зн., description 152 зн., фото 3, ссылок 34</p></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Штатная аудиосистема JBL Synthesis: после установки Teyes CC4 Pro она работает? В записи мастера про JBL ничего нет, надпись видна только на фото «до».</li><li>На месте часов и надписи JBL на фото «после» – дисплей температуры (22.5 / 22.0 / за бортом 26 °C). Это часть рамки комплекта Teyes или штатная панель? В тексте сказано только, что это видно на фото.</li><li>На кадрах «до» снята обшивка водительской двери и виден динамик с проводами. Делали ли по этой машине ещё работы (акустика)? В записи только установка Teyes CC4 Pro.</li><li>Кнопки руля, камера, микрофон в записи не упомянуты – в тексте про них нет. Если подключали, можно дописать.</li><li>Размер экрана Teyes CC4 Pro в записи не указан – в тексте не назван.</li></ul></details>
+<details><summary>Фото: взято 3 из 4</summary><ul><li>не взят · номер: net · до установки: руль и штатный экран, дубль ракурса кадра 003 (на 003 салон виден целиком)</li><li>взят · номер: net · до установки: штатный экран крупно, часы, JBL Synthesis, климат</li><li>взят · номер: net · до установки: салон с места водителя; в правом нижнем углу краешек руки/плеча без лица</li><li>взят · номер: net · после: экран Teyes CC4 Pro с заставкой, кнопки, температура; в глянце отражение руки, лица нет</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-08 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="265" data-marka="Nissan" data-status="gotovo">
+<div class="top"><b>№265 · Nissan Juke, 2015</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC4, камера заднего вида · 24.08.2026 · фото: 3 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола ниссан жук» – Новосибирск 56, Россия 2431 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/nissan/teyes-cc4-nissan-juke-2015-rear-camera</code></p>
-</div><div class="card" data-id="264" data-marka="Nissan" data-status="zhdyot">
-<div class="top"><b>№264 · Nissan Pathfinder</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/265/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола на Nissan Juke: Teyes CC4 и камера, Новосибирск</b><br>Nissan Juke 2015: поставили магнитолу Teyes CC4 и камеру заднего вида. На фото – экран над блоком климата и D-MODE и белый Juke в цехе.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 57 зн., description 135 зн., фото 2, ссылок 35</p></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Год 2015 – из записи мастера. Передок на фото (фары без светодиодной полосы, решётка) похож на дорестайлинговый Juke 2010–2014 – подтвердить год выпуска.</li><li>Экран на фото выключен, логотипа не видно – подтвердить, что стоит именно Teyes CC4. Размер экрана в тексте не назван.</li><li>Кадра с камерой заднего вида и её картинкой на экране нет – где стоит камера и выводится ли она на Teyes CC4? В тексте только «поставили камеру».</li><li>Глянцевая чёрная рамка вокруг экрана – из комплекта Teyes или переходная рамка под Juke? В тексте названа просто «глянцевая чёрная рамка».</li><li>Кнопки руля, штатный звук и работа D-MODE после установки не упомянуты ни в записи, ни на фото – в тексте про них нет.</li></ul></details>
+<details><summary>Фото: взято 2 из 2</summary><ul><li>взят · номер: net · салон с места водителя: экран Teyes в глянцевой рамке над блоком CLIMATE/D-MODE, экран выключен; первый экран</li><li>взят · номер: zakryt · белый Juke спереди в цехе; номер (Казахстан) под углом закрыт по четырём углам таблички со второй попытки; за стеклом фигура человека без лица (голова срезана крышей)</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="264" data-marka="Nissan" data-status="gotovo">
+<div class="top"><b>№264 · Nissan Pathfinder</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC4 · 07.26 · фото: 3 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола ниссан патфайндер» – Новосибирск 16, Россия 1231 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/nissan/teyes-cc4-nissan-pathfinder</code></p>
+<a class="btn" href="k/264/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола Nissan Pathfinder R51: Teyes CC4, Новосибирск</b><br>Nissan Pathfinder R51: поставили магнитолу Teyes CC4 наверху консоли, над штатными кнопками и климатом. На фото – экран с музыкой, навигацией и компасом.</p>
 <details><summary>Замечания реестра: 1</summary><ul><li>года нет в записи – в текст не писать</li></ul></details>
-</div><div class="card" data-id="263" data-marka="Honda" data-status="zhdyot">
-<div class="top"><b>№263 · Honda Vezel</b><span class="chip zhdyot">ждёт</span></div>
+<details><summary>Проверка кодом: ошибок 0, замечаний 2</summary><p class="meta">title 55 зн., description 153 зн., фото 2, ссылок 33</p><ul><li><b>замечание:</b> в тексте есть год 2026, а в записи мастера года машины нет</li><li><b>замечание:</b> в тексте есть год 2026, а в записи мастера года машины нет</li></ul></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Год/кузов определён по фото: R51 (2004–2014) – по рулю Nissan с кнопками на левой спице, приборам с оранжевой подсветкой, консоли с серебристой вставкой, пультом MAP/DEST/PHONE и климатом с оранжевым дисплеем. В записи мастера года и кузова нет – подтвердить.</li><li>Запись мастера – только «Nissan Pathfinder, CC4». Точной даты нет: в плитке «июль 2026» по записи «07.26»; на фото дата 19.07.2026 – это день работы?</li><li>Работают ли после установки штатные кнопки пульта под экраном (MAP, PHONE, CD, FM-AM) и кнопки руля – в тексте об этом не сказано, нужно ли добавить?</li><li>Размер экрана Teyes CC4 на этом Pathfinder в записи не указан – в тексте его нет.</li><li>Камера заднего вида, микрофон и подключение к штатному звуку в записи не названы – в тексте их нет.</li></ul></details>
+<details><summary>Фото: взято 2 из 2</summary><ul><li>взят · номер: net · вид с места водителя: Teyes CC4 над штатным пультом и климатом; рамка детектора 43,447,128,582 – кнопки на спице руля, не номер (--ne-nomer); первый экран</li><li>взят · номер: net · центральная консоль сбоку: экран Teyes CC4, пульт, климат; номеров нет, на ароматизаторе чужая реклама автомойки с телефоном – мелко, не номер</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="263" data-marka="Honda" data-status="gotovo">
+<div class="top"><b>№263 · Honda Vezel</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC4, рег, микрофон в штатное место · 07.26 · фото: 10 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «видеорегистратор хонда везел» – Новосибирск 2, Россия 101 в месяц · угол: видеорегистратор</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc4-honda-vezel-dashcam</code></p>
+<a class="btn" href="k/263/">Открыть как на сайте</a>
+<p class="meta"><b>Видеорегистратор Teyes и CC4 на Honda Vezel, Новосибирск</b><br>Honda Vezel RV с правым рулём: видеорегистратор Teyes у зеркала, магнитола Teyes CC4 наверху торпедо, микрофон в штатном месте. 8 фото работы.</p>
 <details><summary>Замечания реестра: 1</summary><ul><li>года нет в записи – в текст не писать</li></ul></details>
-</div><div class="card" data-id="262" data-marka="Nissan" data-status="zhdyot">
-<div class="top"><b>№262 · Nissan NV200</b><span class="chip zhdyot">ждёт</span></div>
+<details><summary>Проверка кодом: ошибок 0, замечаний 6</summary><p class="meta">title 56 зн., description 142 зн., фото 8, ссылок 36</p><ul><li><b>замечание:</b> в тексте есть год 2021, а в записи мастера года машины нет</li><li><b>замечание:</b> в тексте есть год 2021, а в записи мастера года машины нет</li><li><b>замечание:</b> в тексте есть год 2026, а в записи мастера года машины нет</li><li><b>замечание:</b> в тексте есть год 2021, а в записи мастера года машины нет</li><li><b>замечание:</b> honda-vezel-teyes-cc4-dashboard.webp: детектор видит номер в рамке [1216, 806, 1279, 900] (уверенность 0.39), писатель отметил, что это не номер – посмотреть глазами</li><li><b>замечание:</b> honda-vezel-teyes-cc4-home-screen.webp: детектор видит номер в рамке [444, 264, 887, 535] (уверенность 0.9), писатель отметил, что это не номер – посмотреть глазами</li></ul></details>
+<details open><summary>Что проверить владельцу: 6</summary><ul><li>Год/кузов определён по фото: решётка с горизонтальными ламелями в цвет кузова, узкие фары, форма торпедо и приборки, надпись «RV4» маркером на лобовом стекле (кадр 005) – Honda Vezel второго поколения RV, с 2021 года. Года в записи нет.</li><li>Модель видеорегистратора в записи не названа – на корпусе видна надпись TEYES. Подтвердить, что регистратор Teyes, и какая модель.</li><li>На кадре 002 на экране Teyes CC4 картинка задней камеры. Камеры в записи нет – она штатная или её подключали мы? В тексте написано только, что картинка видна на экране.</li><li>Микрофон: на кадре 006 – потолочная консоль с кнопкой SOS. Подтвердить, что штатное место микрофона именно там.</li><li>Кнопки руля, штатный звук и камера в записи не упомянуты – в тексте про их сохранение ничего нет.</li><li>На кадре 005 закрыты госномер и надпись маркером на лобовом стекле (дата и номер кузова) – проверить глазами.</li></ul></details>
+<details><summary>Фото: взято 8 из 9</summary><ul><li>взят · номер: net · салон, экран Teyes CC4 с рабочим столом – первый экран; рамка детектора 445,264,887,535 – это экран магнитолы, не номер (--ne-nomer)</li><li>взят · номер: net · задняя камера на экране, руль, приборы; на камере бок чужой машины, номера не видно</li><li>взят · номер: net · вид с места водителя: Teyes CC4 и японская приборная панель, таблички TEYES SIBIR на стене</li><li>взят · номер: net · видеорегистратор с надписью TEYES на лобовом стекле у зеркала, снаружи</li><li>взят · номер: zakryt · серый Vezel спереди в цехе; госномер закрыт по четырём углам, надпись маркером с номером кузова на стекле закрыта; у машины на заднем плане номера не видно</li><li>взят · номер: net · потолочная консоль с кнопкой SOS – место микрофона, вертикальный</li><li>не взят · номер: net · рамка экрана сбоку – дубль ракурса 008, на заднем плане коробка StarLine S97 от другой работы и зеркальная надпись маркером на стекле</li><li>взят · номер: net · рамка экрана Teyes CC4 сбоку, датчик на торпедо</li><li>взят · номер: net · торпедо целиком, экран выключен; рамка детектора 1217,808,1279,901 – кнопки руля, не номер (--ne-nomer)</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 5 мин</p>
+</div><div class="card" data-id="262" data-marka="Nissan" data-status="gotovo">
+<div class="top"><b>№262 · Nissan NV200</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC4 · 07.26 · фото: 4 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола ниссан nv200» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/nissan/teyes-cc4-nissan-nv200</code></p>
+<a class="btn" href="k/262/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола Teyes CC4 на Nissan NV200 – Новосибирск</b><br>Nissan NV200 Vanette с правым рулём: поставили магнитолу Teyes CC4. На фото – экран в центре панели над блоком климата и рабочий стол Teyes.</p>
 <details><summary>Замечания реестра: 1</summary><ul><li>года нет в записи – в текст не писать</li></ul></details>
-</div><div class="card" data-id="261" data-marka="Daihatsu" data-status="zhdyot">
-<div class="top"><b>№261 · Daihatsu Atrai</b><span class="chip zhdyot">ждёт</span></div>
+<details><summary>Проверка кодом: ошибок 0, замечаний 2</summary><p class="meta">title 49 зн., description 140 зн., фото 2, ссылок 34</p><ul><li><b>замечание:</b> в тексте есть год 2026, а в записи мастера года машины нет</li><li><b>замечание:</b> nissan-nv200-teyes-cc4-salon.webp: детектор видит номер в рамке [113, 380, 393, 594] (уверенность 0.61), писатель отметил, что это не номер – посмотреть глазами</li></ul></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>В записи только «Nissan NV200, CC4»: подтвердить модель Teyes CC4 (на фото надписи модели нет) и что других работ по машине не было.</li><li>Год и кузов не определены: на руле и двери новый логотип Nissan, надпись VANETTE – года в тексте нет. Если мастер знает год – добавить.</li><li>Камера заднего вида, кнопки руля, микрофон в записи не названы и на экране не видны – в тексте их нет. Подключены ли кнопки руля?</li><li>«Рамка зависит от панели» и совет прислать фото блока климата – общее правило подбора, не из записи: подтвердить, что для NV200 это так.</li><li>Дата работы – июль 2026 по дате кадров (19.07.2026), в записи «07.26».</li></ul></details>
+<details><summary>Фото: взято 2 из 3</summary><ul><li>взят · номер: net · белый NV200 Vanette сзади в цехе, номера сняты; у соседней машины номер не виден</li><li>взят · номер: zakryt · салон, экран Teyes CC4 с рабочим столом; номер серой машины за стеклом закрыт; рамка детектора на экране магнитолы – не номер (--ne-nomer); мастер за стеклом со спины, лица нет</li><li>не взят · номер: net · машина спереди в поролоновой защите – не результат работы; на стене календарь с фото женщины – не брать</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="261" data-marka="Daihatsu" data-status="gotovo">
+<div class="top"><b>№261 · Daihatsu Atrai</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка мультимедиа Teyes cc3 · 07.26 · фото: 3 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола дайхатсу атрай» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/daihatsu/teyes-cc3-daihatsu-atrai</code></p>
+<a class="btn" href="k/261/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола на Daihatsu Atrai: Teyes CC3, Новосибирск</b><br>Daihatsu Atrai с правым рулём: мастера поставили мультимедиа Teyes CC3 в центр панели. На фото – экран с радио и меню на русском, климат под ним.</p>
 <details><summary>Замечания реестра: 2</summary><ul><li>раздела /work/daihatsu на сайте нет – завести или выбрать другой</li><li>года нет в записи – в текст не писать</li></ul></details>
-</div><div class="card" data-id="260" data-marka="Nissan" data-status="zhdyot">
-<div class="top"><b>№260 · Nissan Teana</b><span class="chip zhdyot">ждёт</span></div>
+<details><summary>Проверка кодом: ошибок 0, замечаний 3</summary><p class="meta">title 51 зн., description 145 зн., фото 2, ссылок 32</p><ul><li><b>замечание:</b> в тексте есть год 2026, а в записи мастера года машины нет</li><li><b>замечание:</b> daihatsu-atrai-teyes-cc3-ekran-krupno.webp: детектор видит номер в рамке [354, 424, 895, 769] (уверенность 0.83), писатель отметил, что это не номер – посмотреть глазами</li><li><b>замечание:</b> daihatsu-atrai-teyes-cc3-salon.webp: детектор видит номер в рамке [297, 451, 599, 633] (уверенность 0.52), писатель отметил, что это не номер – посмотреть глазами</li></ul></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Год и поколение Daihatsu Atrai не указаны: по фото панель похожа на кузов S700 (2021–), но уверенности нет – в тексте нет ни года, ни кузова. Подтвердить год, если нужно в заголовок.</li><li>Экран на фото – 2DIN с физическими кнопками SRC, NAVI, VOL+/−, SEEK+/− по бокам. Это точно Teyes CC3 (а не CC2 Plus или другая модель)? Размер экрана в записи не указан.</li><li>Даты в записи только месяц (07.26), кадры сняты 19.07.2026 – в тексте «июль 2026». Указать точный день?</li><li>Камера, кнопки руля, микрофон, штатный звук ни в записи, ни на фото не видны – в тексте их нет. Ставили ли что-то ещё?</li><li>Раздела /work/daihatsu на сайте нет, страница модели /multimedia_teyes/daihatsu/atrai отвечает 404 – ссылки на них не ставили.</li></ul></details>
+<details><summary>Фото: взято 2 из 2</summary><ul><li>взят · номер: net · общий вид салона, правый руль в чехле TEYES Sibir, экран Teyes CC3 в центре панели; рамка детектора (0.47) – на экране магнитолы, номера нет, отмечено --ne-nomer</li><li>взят · номер: net · экран Teyes CC3 крупно, рабочий стол с радио, блок климата ниже; рамка детектора (0.81) – экран магнитолы, номера нет, отмечено --ne-nomer; взят на первый экран: устройство видно крупнее, руль в чехле не мешает</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 2 мин</p>
+</div><div class="card" data-id="260" data-marka="Nissan" data-status="oshibka">
+<div class="top"><b>№260 · Nissan Teana</b><span class="chip oshibka">ошибка</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4l · 07.26 · фото: 2 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «teyes cc4l ниссан теана» – Новосибирск 0, Россия 0 в месяц · угол: Teyes CC4L</p>
 <p class="meta">Адрес: <code>/work/nissan/teyes-cc4l-nissan-teana</code></p>
+<p class="meta"><b>Ошибка:</b> писатель: НЕ ВЫШЛО 260: нет годных фото  Мастер записал работу так: Nissan Teana, установка Teyes CC4L. В задании для неё один кадр: 001_</p>
 <details><summary>Замечания реестра: 2</summary><ul><li>года нет в записи – в текст не писать</li><li>мало фото (2)</li></ul></details>
 </div><div class="card" data-id="259" data-marka="Toyota" data-status="net-foto">
 <div class="top"><b>№259 · Toyota Camry, 2013</b><span class="chip net-foto">нет фото</span></div>
@@ -1527,12 +1576,18 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <p class="meta">Запрос: своего запроса нет</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4l-toyota-camry-2013</code></p>
 <details open><summary>Замечания реестра: 1</summary><ul><li>фото нет: запись ссылается на кадры папки «259_Mitsubishi Outlander» – там чёрный Mitsubishi Outlander XL, не Camry. Toyota Camry 2013 с CC4L в фотобанке не найдена; есть Camry без записей: «276_Toyota Camry» (XV55, CC3, камера) и «272_Toyota Camry 50 2014г» (чёрная XV50, круговой обзор) – по году и составу не сходятся, не брал</li></ul></details>
-</div><div class="card" data-id="258" data-marka="Toyota" data-status="zhdyot">
-<div class="top"><b>№258 · Toyota Highlander</b><span class="chip zhdyot">ждёт</span></div>
+</div><div class="card" data-id="258" data-marka="Toyota" data-status="gotovo">
+<div class="top"><b>№258 · Toyota Highlander</b><span class="chip gotovo">готово</span></div>
 <p class="meta">какая-то магнитола 12 дюймов · 07.26 · фото: 2 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола хайлендер» – Новосибирск &gt;=30, Россия &gt;=928 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/head-unit-toyota-highlander</code></p>
+<a class="btn" href="k/258/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола 12″ на Toyota Highlander XU40 в Новосибирске</b><br>Toyota Highlander XU40: вместо магнитолы 2DIN поставили широкий экран 12 дюймов наверху торпедо. Фото до и после установки, цена от 4 500 ₽.</p>
 <details><summary>Замечания реестра: 3</summary><ul><li>модель магнитолы в записи не названа или это не Teyes</li><li>года нет в записи – в текст не писать</li><li>мало фото (2)</li></ul></details>
+<details><summary>Проверка кодом: ошибок 0, замечаний 1</summary><p class="meta">title 54 зн., description 140 зн., фото 2, ссылок 34</p><ul><li><b>замечание:</b> в тексте есть год 2026, а в записи мастера года машины нет</li></ul></details>
+<details open><summary>Что проверить владельцу: 6</summary><ul><li>В записи мастера: «какая-то магнитола 12 дюймов». Какая это магнитола – Teyes (какая модель) или другая марка? Логотип на выключенном экране на фото не читается, поэтому в тексте марка и модель не названы.</li><li>Год/кузов определён по фото: XU40 (2007–2013) – по форме торпедо с табло между центральными дефлекторами, приборке с тремя колодцами и блоку климата с тремя крутилками. Года в записи нет.</li><li>Магнитола 2DIN на фото «до» – штатная или ставили раньше? В тексте она названа просто «магнитола формата 2DIN».</li><li>Панель с кнопками NAVI/RADIO/MUSIC/HOME/BACK/MODE и маленьким дисплеем – часть комплекта новой магнитолы? Дисплей на фото выключен, что он показывает – не написано.</li><li>Камера, кнопки руля, микрофон, штатный звук на фото не видны и в записи не названы – в тексте их нет. Экран на фото выключен, что на нём работает – не описано.</li><li>Дата – только месяц (07.26), по дате фото 19.07.2026; точный день работы в записи нет.</li></ul></details>
+<details><summary>Фото: взято 2 из 2</summary><ul><li>взят · номер: zakryt · салон до установки: магнитола 2DIN с радио на экране; за стеклом два чужих номера (Nissan и Honda) – оба закрыты по рамке, проверено лупой</li><li>взят · номер: net · салон после установки: экран 12 дюймов наверху торпедо (выключен), панель с кнопками; номеров нет, на стене табличка TEYES SIBIR; первый экран</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 2 мин</p>
 </div><div class="card" data-id="257" data-marka="Toyota" data-status="zhdyot">
 <div class="top"><b>№257 · Toyota RAV4</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">LuxOne с подключением штатной камеры, микро · 07.26 · фото: 4 · услуга: мультимедиа Teyes</p>

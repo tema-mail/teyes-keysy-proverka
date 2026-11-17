@@ -67,23 +67,23 @@ html[data-theme=dark] #tema-btn{background:#2a2d33!important;color:#f2f2f0!impor
 </style><script>(function(){var t;try{t=localStorage.getItem('tema')}catch(e){}
 if(!t){var h=new Date().getHours();t=(h>=19||h<7||(matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches))?'dark':'light'}
 document.documentElement.setAttribute('data-theme',t)})();</script></head><body><div class="wrap">
-<p class="sub">TEYES Sibir · страница проверки · обновлено 17.11.2026 18:55 НСК</p>
+<p class="sub">TEYES Sibir · страница проверки · обновлено 17.11.2026 19:11 НСК</p>
 <h1>Статьи о работах мастеров – на проверку</h1>
 <p>Работы №171–368, которых ещё нет на сайте: реестр, статус и готовые страницы в том виде, в каком они встанут на сайт. На сайт и в Тильду отсюда ничего не уходит.</p>
 <div class="nums">
 <div class="box"><b>198</b>работ в реестре</div>
-<div class="box"><b>3</b>готово</div>
-<div class="box"><b>107</b>ждут писателя</div>
+<div class="box"><b>13</b>готово</div>
+<div class="box"><b>97</b>ждут писателя</div>
 <div class="box"><b>0</b>с ошибкой</div>
 <div class="box"><b>84</b>нет фото<br><span class="sub">из них 82 – фото только на Яндекс Диске</span></div>
 <div class="box"><b>4</b>дубли</div>
 </div>
 <div class="note"><b>Призывы меняются сразу во всех статьях.</b> В каждой статье стоят только номера трёх призывов и липкая полоса, сама разметка лежит в одном файле <code>cta/bloki.py</code>. Поправили текст призыва или заменили один номер на другой (<code>ZAMENA</code> в том же файле) – одна команда <code>.venv/bin/python scripts/sobrat.py --vse</code> пересобирает все статьи. Сейчас призывы расставлены произвольно по правилу «холодный в начале, тёплый в середине, горячий в конце».</div>
-<div class="box"><p><b>Ход.</b> В среднем 3,7 мин на статью (по готовым, при трёх писателях одновременно). Прогноз на оставшиеся 107: 2.2 ч при трёх писателях. Спрос Вордстата (XMLRiver): 375 обращений ≈ 9.38 ₽.</p>
+<div class="box"><p><b>Ход.</b> В среднем 3,8 мин на статью (по готовым, при трёх писателях одновременно). Прогноз на оставшиеся 97: 2.0 ч при трёх писателях. Спрос Вордстата (XMLRiver): 375 обращений ≈ 9.38 ₽.</p>
 <p class="sub">Спрос – частота точной формулировки в месяц; «&gt;=N» – головной строки в Вордстате нет, это нижняя граница; «нет данных» – провайдер не ответил.</p></div>
 <div class="filt">
 <select id="f-marka" aria-label="Марка"><option value="">Все марки</option><option>Audi</option><option>BMW</option><option>Daihatsu</option><option>Geely</option><option>Honda</option><option>Hyundai</option><option>Infiniti</option><option>Jeep</option><option>Kia</option><option>Lada</option><option>Land Rover</option><option>Lexus</option><option>Mazda</option><option>Mercedes-Benz</option><option>Mitsubishi</option><option>Nissan</option><option>Peugeot</option><option>Porsche</option><option>Renault</option><option>Skoda</option><option>Subaru</option><option>Suzuki</option><option>Toyota</option><option>UAZ</option><option>Volkswagen</option><option>Zeekr</option></select>
-<select id="f-status" aria-label="Статус"><option value="">Все статусы</option><option value="gotovo">готово (3)</option><option value="zhdyot">ждёт (107)</option><option value="oshibka">ошибка (0)</option><option value="net-foto">нет фото (84)</option><option value="dubl">дубль (4)</option></select>
+<select id="f-status" aria-label="Статус"><option value="">Все статусы</option><option value="gotovo">готово (13)</option><option value="zhdyot">ждёт (97)</option><option value="oshibka">ошибка (0)</option><option value="net-foto">нет фото (84)</option><option value="dubl">дубль (4)</option></select>
 <input id="f-q" type="search" placeholder="Поиск: модель, устройство, номер" aria-label="Поиск">
 <span class="sub" id="f-n" style="align-self:center"></span>
 </div>
@@ -98,34 +98,64 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <details open><summary>Что проверить владельцу: 5</summary><ul><li>Видеорегистратор на фото не виден: кадр через лобовое стекло не взят, в нём лицо мастера в профиль. Где стоит регистратор и он Teyes? Если есть фото без людей – добавить.</li><li>Микрофон: на фото потолочная консоль с решёткой – это и есть штатное место микрофона на этом Hilux?</li><li>Камера в ручке заднего борта – новая наша или штатная, которую подключили к Teyes CC4? В тексте написано, что поставили.</li><li>Кнопки руля, штатный звук и подогрев сидений не упомянуты в записи – в тексте про них нет, сохранность не проверена.</li><li>Диагональ экрана Teyes CC4 в записи не названа – в тексте её нет.</li></ul></details>
 <details><summary>Фото: взято 7 из 8</summary><ul><li>взят · номер: net · салон до установки, штатный экран; рамка детектора – экран приборной панели, не номер (--ne-nomer)</li><li>взят · номер: net · салон после, Teyes CC4 с рабочим столом – первый экран; рамка детектора – экран магнитолы, не номер (--ne-nomer)</li><li>взят · номер: net · экран Teyes CC4 со стороны пассажира, вертикальный</li><li>взят · номер: net · картинка задней камеры на экране; чужая машина боком, номера не видно; у края фигура человека без лица, обрезана рамкой</li><li>взят · номер: net · потолочная консоль с решёткой, плафонами и кнопкой SOS</li><li>не взят · номер: net · лобовое стекло с регистратором за зеркалом; не взят – на фоне мастер, лицо в профиль</li><li>взят · номер: net · камера заднего вида в накладке ручки заднего борта</li><li>взят · номер: zakryt · Hilux спереди в цехе; номер под углом закрыт по 8 точкам, лупой проверено</li></ul></details>
 <p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
-</div><div class="card" data-id="367" data-marka="Renault" data-status="zhdyot">
-<div class="top"><b>№367 · Renault Duster, 2015</b><span class="chip zhdyot">ждёт</span></div>
+</div><div class="card" data-id="367" data-marka="Renault" data-status="gotovo">
+<div class="top"><b>№367 · Renault Duster, 2015</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка динамиков, шумоизоляция дверей, передняя камера · 15.11.2026 · фото: 4 · услуга: автозвук</p>
 <p class="meta">Запрос: «акустика рено дастер» – Новосибирск 0, Россия &gt;=30 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/renault/renault-duster-2015-front-camera-speakers-soundproofing</code></p>
-</div><div class="card" data-id="366" data-marka="Toyota" data-status="zhdyot">
-<div class="top"><b>№366 · Toyota Land Cruiser Prado 120, 2006</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/367/">Открыть как на сайте</a>
+<p class="meta"><b>Акустика и шумоизоляция Renault Duster в Новосибирске</b><br>Renault Duster 2015: новые динамики, шумоизоляция дверей и передняя камера. На фото – двери с материалом Шумофф, динамик и кроссоверы Audison.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 53 зн., description 142 зн., фото 3, ссылок 34</p></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Модель динамиков: на фото видны мидбасы Audison и кроссоверы с надписями APCX P 2W и APCX P 2T – какой комплект ставили и где стоят пищалки? В тексте названа только марка Audison.</li><li>Шумоизоляция на фото – только передние двери. Задние двери тоже делали? В тексте сказано «двери» и «передние двери на фото».</li><li>Материал – Шумофф с рисунком Jack (видно на фото). Верно ли, что это виброизоляция и был ли второй слой?</li><li>Передняя камера: куда выведена картинка (штатный экран, магнитола) и как включается? В тексте этого нет. Кадр с камерой под номером не взят – номер на полкадра; если нужен, кадр надо обрезать.</li><li>Цены на колонки и шумоизоляцию с сайта помечены как сомнительные – в тексте цены нет, только «назовёт менеджер». Сверить цены и вставить при желании.</li></ul></details>
+<details><summary>Фото: взято 3 из 4</summary><ul><li>взят · номер: zakryt · Renault Duster спереди в три четверти, номер под углом – закрыт по четырём углам; на заднем плане BMW без видимого номера</li><li>не взят · номер: zakryt · передняя камера под номером крупно; номер занимает полкадра, скрипт не даёт закрыть такую площадь – кадр не взят</li><li>взят · номер: net · передняя дверь: шумоизоляция Шумофф, динамик и кроссоверы Audison; в стекле человек со спины, лица не видно</li><li>взят · номер: net · вторая передняя дверь: шумоизоляция, динамик Audison, кроссоверы APCX P 2W и APCX P 2T</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-17 → CTA-03 + полоса CTA-20 · написано за 4 мин</p>
+</div><div class="card" data-id="366" data-marka="Toyota" data-status="gotovo">
+<div class="top"><b>№366 · Toyota Land Cruiser Prado 120, 2006</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC4 12 дюймов, система кругового обзора · 15.11.2026 · фото: 1 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «круговой обзор прадо 120» – Новосибирск 0, Россия &gt;=10 в месяц · угол: круговой обзор 360</p>
 <p class="meta">Адрес: <code>/work/toyota/teyes-cc4-12-inch-toyota-land-cruiser-prado-120-2006-360-view</code></p>
+<a class="btn" href="k/366/">Открыть как на сайте</a>
+<p class="meta"><b>Teyes CC4 и обзор 360 на Land Cruiser Prado 120, Новосибирск</b><br>Toyota Land Cruiser Prado 120 2006: поставили Teyes CC4 12″ и систему кругового обзора 360. На фото – экран в центральной консоли над блоком климата.</p>
 <details><summary>Замечания реестра: 1</summary><ul><li>мало фото (1)</li></ul></details>
-</div><div class="card" data-id="365" data-marka="Honda" data-status="zhdyot">
-<div class="top"><b>№365 · Honda Vezel, 2019</b><span class="chip zhdyot">ждёт</span></div>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 60 зн., description 149 зн., фото 1, ссылок 35</p></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Экран на фото выключен: работу кругового обзора 360 на кадре не видно, камер снаружи на фото нет. Фото с картинкой 360 на экране есть?</li><li>Экран на фото по рамке похож скорее на 9–10 дюймов, чем на 12. В записи – CC4 12 дюймов: размер верный?</li><li>Какой комплект камер 360 ставили (Teyes 3D 360 1080P или другой) – в записи не указано, в тексте модели камер нет.</li><li>Кнопки руля, штатный звук и камера заднего вида не названы в записи – в тексте про них нет.</li><li>В тексте сказано, что экран встал на место штатной магнитолы: так следует из фото (консоль над климатом), в записи этого нет.</li></ul></details>
+<details><summary>Фото: взято 1 из 1</summary><ul><li>взят · номер: net · вид с места водителя: экран Teyes в центральной консоли над климатом, экран выключен; номеров и лиц нет</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="365" data-marka="Honda" data-status="gotovo">
+<div class="top"><b>№365 · Honda Vezel, 2019</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC4, микрофон · 10.11.2026 · фото: 4 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола хонда везел» – Новосибирск 99, Россия 963 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/honda/teyes-cc4-honda-vezel-2019</code></p>
-</div><div class="card" data-id="364" data-marka="Renault" data-status="zhdyot">
-<div class="top"><b>№364 · Renault Samsung QM6, 2022</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/365/">Открыть как на сайте</a>
+<p class="meta"><b>Honda Vezel: магнитола Teyes CC4 вместо Gathers, Новосибирск</b><br>Honda Vezel 2019 с правым рулём: штатную Gathers сменили на Teyes CC4, микрофон громкой связи – в потолок. Фото до и после установки.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 2</summary><p class="meta">title 60 зн., description 133 зн., фото 4, ссылок 35</p><ul><li><b>замечание:</b> honda-vezel-2019-shtatnaya-magnitola-gathers.webp: детектор видит номер в рамке [128, 496, 508, 723] (уверенность 0.72), писатель отметил, что это не номер – посмотреть глазами</li><li><b>замечание:</b> ошибки скриптов на 390 px: t396__updateTopShift is undefined</li></ul></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Штатная магнитола Gathers взята с фото до установки (надпись на экране), в записи мастера её нет – подтвердить, что это кадр этой же машины до работы.</li><li>Место микрофона (потолок у передней стойки) – по фото; это водительская сторона? В тексте сторона не названа.</li><li>Кнопки руля, штатная камера и звук не упомянуты ни в записи, ни на фото – в тексте про них нет. Если работают с Teyes CC4 – можно дописать.</li><li>Фраза «Honda Vezel в Новосибирске часто праворульная, из Японии» – общее наблюдение, не из записи; оставить или убрать.</li><li>Размер экрана Teyes CC4 и рамка для этого Vezel в записи не указаны – в тексте их нет.</li></ul></details>
+<details><summary>Фото: взято 4 из 4</summary><ul><li>взят · номер: net · салон до установки: штатная Gathers; рамка детектора – экран магнитолы, не номер (--ne-nomer); внизу слева колено в джинсах, лица нет</li><li>взят · номер: net · салон после установки: Teyes CC4 с русским рабочим столом – главный кадр</li><li>взят · номер: net · микрофон в обшивке потолка у передней стойки</li><li>взят · номер: zakryt · машина спереди в цехе; передний номер под углом закрыт по 8 точкам, лупой проверено – знаков не читается</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-10 → CTA-06 + полоса CTA-20 · написано за 4 мин</p>
+</div><div class="card" data-id="364" data-marka="Renault" data-status="gotovo">
+<div class="top"><b>№364 · Renault Samsung QM6, 2022</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка сигнализации StarLine s96 · 05.11.2026 · фото: 2 · услуга: сигнализация</p>
 <p class="meta">Запрос: «сигнализация renault samsung qm6» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/renault/starline-s96-renault-samsung-qm6-2022</code></p>
+<a class="btn" href="k/364/">Открыть как на сайте</a>
+<p class="meta"><b>Сигнализация StarLine на Renault Samsung QM6, Новосибирск</b><br>Renault Samsung QM6 2022: мастера TEYES Sibir установили сигнализацию StarLine, на фото – коробка комплекса E96 V2 и машина в цехе. Цены от 8 000 ₽.</p>
 <details><summary>Замечания реестра: 1</summary><ul><li>мало фото (2)</li></ul></details>
-</div><div class="card" data-id="363" data-marka="Toyota" data-status="zhdyot">
-<div class="top"><b>№363 · Toyota Roomy, 2019</b><span class="chip zhdyot">ждёт</span></div>
+<details><summary>Проверка кодом: ошибок 0, замечаний 4</summary><p class="meta">title 57 зн., description 148 зн., фото 2, ссылок 34</p><ul><li><b>замечание:</b> адрес отличается от реестра: /work/renault/starline-e96-v2-renault-samsung-qm6-2022 вместо /work/renault/starline-s96-renault-samsung-qm6-2022</li><li><b>замечание:</b> renault-samsung-qm6-2022-starline-e96-box-windshield.webp: детектор видит номер в рамке [361, 802, 452, 847] (уверенность 0.82), писатель отметил, что это не номер – посмотреть глазами</li><li><b>замечание:</b> renault-samsung-qm6-2022-starline-front-view.webp: детектор видит номер в рамке [994, 892, 1063, 1036] (уверенность 0.51), писатель отметил, что это не номер – посмотреть глазами</li><li><b>замечание:</b> renault-samsung-qm6-2022-starline-front-view.webp: детектор видит номер в рамке [80, 887, 132, 1018] (уверенность 0.39), писатель отметил, что это не номер – посмотреть глазами</li></ul></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>В записи мастера – StarLine S96, а на обоих фото коробка StarLine E96 V2. В тексте и slug стоит E96 V2 по фото – какую модель поставили на самом деле?</li><li>Ставили ли автозапуск? В записи этого нет, поэтому в тексте обе цены – без автозапуска и с ним.</li><li>Брелок с экраном упомянут только по рисунку на коробке – входил ли он в комплект и отдали ли его владельцу?</li><li>Фото установленного блока, брелока или приложения нет – есть ли кадры после установки, чтобы показать результат?</li><li>«Других работ по этой машине не было» – взято из того, что в записи одна работа. Верно?</li></ul></details>
+<details><summary>Фото: взято 2 из 2</summary><ul><li>взят · номер: zakryt · QM6 спереди в цехе, коробка StarLine у стекла; передний номер закрыт по четырём углам; рамки детектора на фарах (0,30 и 0,27) – не номера, помечены --ne-nomer</li><li>взят · номер: net · коробка StarLine E96 V2 на капоте у стекла; рамка детектора (0,82) – рисунок брелока на коробке, не номер, помечена --ne-nomer</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-17 → CTA-03 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="363" data-marka="Toyota" data-status="gotovo">
+<div class="top"><b>№363 · Toyota Roomy, 2019</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка сигнализации StarLine s96 · 05.11.2026 · фото: 2 · услуга: сигнализация</p>
 <p class="meta">Запрос: «сигнализация тойота руми» – Новосибирск &gt;=16, Россия &gt;=56 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/starline-s96-toyota-roomy-2019</code></p>
+<a class="btn" href="k/363/">Открыть как на сайте</a>
+<p class="meta"><b>Сигнализация StarLine S96 на Toyota Roomy, Новосибирск</b><br>Toyota Roomy 2019: мастера TEYES Sibir установили сигнализацию StarLine S96. На фото – машина в цехе и коробка комплекта S96 V2. Цены на установку.</p>
 <details><summary>Замечания реестра: 1</summary><ul><li>мало фото (2)</li></ul></details>
+<details><summary>Проверка кодом: ошибок 0, замечаний 1</summary><p class="meta">title 54 зн., description 147 зн., фото 2, ссылок 32</p><ul><li><b>замечание:</b> в перелинковке нет ссылки на каталог или подбор по марке</li></ul></details>
+<details open><summary>Что проверить владельцу: 6</summary><ul><li>В записи «StarLine s96», на коробке на фото – «S96 V2». Ставили именно V2? В тексте версия V2 названа со ссылкой на фото.</li><li>Подключали ли автозапуск на этой Toyota Roomy? В записи этого нет, поэтому в тексте обе цены – с автозапуском и без.</li><li>Где стоит блок, метки, GSM/GPS-модули – на фото не видно, в записи нет; в тексте об этом ничего.</li><li>Оба кадра – машина с коробкой до или во время работы; фото установленного блока или брелока нет. Есть ли такие кадры у мастера?</li><li>Ссылка на Toyota Harrier 339 – там StarLine E97 вместе с Teyes; подходит ли как соседняя работа?</li><li>Соседняя работа №359 (StarLine S96 на Camry) на сайте пока отвечает 404 – ссылку не ставил; добавить после её выкладки.</li></ul></details>
+<details><summary>Фото: взято 2 из 2</summary><ul><li>взят · номер: net · коробка StarLine S96 V2 на лобовом стекле Toyota Roomy, номера в кадре нет; в дверном проёме на фоне – только куртка, людей нет</li><li>взят · номер: net · Toyota Roomy спереди в цехе, кадр для первого экрана; передний номер снят, на бампере пустое крепление (проверено лупой); у белой машины слева номер не попал в кадр</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-17 → CTA-16 + полоса CTA-20 · написано за 3 мин</p>
 </div><div class="card" data-id="362" data-marka="Hyundai" data-status="gotovo">
 <div class="top"><b>№362 · Hyundai Creta, 2023</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка сигнализации StarLine s97 · 05.11.2026 · фото: 2 · услуга: сигнализация</p>
@@ -138,21 +168,39 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <details open><summary>Что проверить владельцу: 5</summary><ul><li>В записи нет, ставили ли автозапуск на этой Creta – в тексте обе цены, без привязки к этой работе. Если автозапуск был, можно дописать.</li><li>Фото установленной сигнализации нет: оба кадра – машина и коробка S97 до или после работы. Есть ли кадры брелока, приложения или места блока?</li><li>На коробке видны надписи про климат-контроль, CAN FD и управление со смартфона по LTE – в текст не взяты. Что из этого подключили на этой Creta?</li><li>Работа с ключом (штатный ключ, обходчик иммобилайзера) в записи не указана – в тексте не упоминается.</li><li>В задании pro_zapis пишет «god пустой», но поле god = 2023 и год есть в записи мастера – год в тексте оставлен.</li></ul></details>
 <details><summary>Фото: взято 2 из 2</summary><ul><li>взят · номер: zakryt · Hyundai Creta спереди в цехе, коробка S97 у стекла; номер вместе с дилерской рамкой закрыт по рамке детектора, проверено лупой. Машины на заднем плане без видимых номеров.</li><li>взят · номер: net · коробка StarLine S97 на капоте у лобового стекла; белая машина сзади без номера в кадре</li></ul></details>
 <p class="meta">Призывы: CTA-01 → CTA-17 → CTA-03 + полоса CTA-20 · написано за 3 мин</p>
-</div><div class="card" data-id="361" data-marka="Subaru" data-status="zhdyot">
-<div class="top"><b>№361 · Subaru Forester, 2022</b><span class="chip zhdyot">ждёт</span></div>
+</div><div class="card" data-id="361" data-marka="Subaru" data-status="gotovo">
+<div class="top"><b>№361 · Subaru Forester, 2022</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC4, микрофон в штатное место · 04.11.2026 · фото: 3 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола субару форестер» – Новосибирск 170, Россия 2737 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/subaru/teyes-cc4-subaru-forester-2022</code></p>
-</div><div class="card" data-id="360" data-marka="BMW" data-status="zhdyot">
-<div class="top"><b>№360 · BMW X5 E70, 2011</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/361/">Открыть как на сайте</a>
+<p class="meta"><b>Subaru Forester 2022: магнитола Teyes CC4, Новосибирск</b><br>Subaru Forester 2022: поставили магнитолу Teyes CC4 и микрофон громкой связи в штатное место. На фото – экран в центре панели и задняя камера.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 54 зн., description 142 зн., фото 3, ссылок 33</p></details>
+<details open><summary>Что проверить владельцу: 6</summary><ul><li>Задняя камера на фото – штатная камера Forester или её ставили мы? В записи мастера камеры нет, в тексте только «вывели картинку на экран».</li><li>Штатный верхний дисплей после установки показывает время и температуру (видно на фото) – связан ли он с Teyes или просто остался как был?</li><li>Где именно штатное место микрофона на Forester 2022 – на фото не видно, в тексте место не названо.</li><li>Кнопки руля и штатный звук в записи не упомянуты – в тексте о них ничего нет; если работают с Teyes CC4, можно дописать.</li><li>Размер экрана Teyes CC4 в записи не указан – в тексте не назван.</li><li>На кадре задней камеры в глубине цеха стоит человек (мелко, лицо не различимо) – устраивает ли кадр.</li></ul></details>
+<details><summary>Фото: взято 3 из 3</summary><ul><li>взят · номер: net · салон с места водителя: Teyes CC4 с рабочим столом, верхний дисплей, климат – кадр первого экрана</li><li>взят · номер: net · картинка задней камеры на экране Teyes CC4; на картинке камеры вдали стоит человек, лицо размером в несколько пикселей и не различимо</li><li>взят · номер: zakryt · Subaru Forester спереди в цеху; передний номер под углом закрыт по четырём углам таблички, проверено лупой</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="360" data-marka="BMW" data-status="gotovo">
+<div class="top"><b>№360 · BMW X5 E70, 2011</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC3 12 дюймов, микрофон в штатное место · 04.11.2026 · фото: 5 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола бмв х5 е70» – Новосибирск 9, Россия 341 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/bmw/teyes-cc3-12-inch-bmw-x5-e70-2011</code></p>
-</div><div class="card" data-id="359" data-marka="Toyota" data-status="zhdyot">
-<div class="top"><b>№359 · Toyota Camry, 2016</b><span class="chip zhdyot">ждёт</span></div>
+<a class="btn" href="k/360/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола Teyes CC3 12″ на BMW X5 E70 в Новосибирске</b><br>BMW X5 E70 2011 года: мастера поставили Teyes CC3 12″ и микрофон в штатное место. На фото – меню iDrive, карта, задняя камера на новом экране.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 52 зн., description 142 зн., фото 5, ссылок 34</p></details>
+<details open><summary>Что проверить владельцу: 5</summary><ul><li>Модель Teyes CC3 12″ для BMW X5 E70 – верно ли записано (не CC3 2K и не CC3L)?</li><li>Задняя камера на фото работает в интерфейсе штатной системы BMW – она заводская или её ставили в эту работу? В тексте написано только «вывели картинку камеры на экран».</li><li>Кузов E70 взят из реестра, в записи мастера его нет; машина на фото – E70 после рестайлинга, сверить.</li><li>Где именно штатное место микрофона на этом X5 – в тексте место не названо, на фото его не видно.</li><li>Штатные кнопки руля и контроллер iDrive не упомянуты ни в записи, ни на фото – в тексте про них ничего нет.</li></ul></details>
+<details><summary>Фото: взято 5 из 5</summary><ul><li>взят · номер: net · вид с места водителя, Teyes CC3 12″ с рабочим столом – первый экран</li><li>взят · номер: zakryt · задняя камера и схема парктроника; на экране камеры номер машины в цехе – закрыт по четырём углам, детектор его не нашёл</li><li>взят · номер: net · главное меню BMW на русском на экране Teyes</li><li>взят · номер: net · карта Новосибирска на экране, приборная панель</li><li>взят · номер: tablichka · BMW X5 сзади в цехе, на месте номера табличка TEYES SIBIR (рамка детектора – она)</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-08 → CTA-06 + полоса CTA-20 · написано за 3 мин</p>
+</div><div class="card" data-id="359" data-marka="Toyota" data-status="gotovo">
+<div class="top"><b>№359 · Toyota Camry, 2016</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка сигнализации StarLine s96, демонтаж Pandora · 03.11.2026 · фото: 4 · услуга: сигнализация</p>
 <p class="meta">Запрос: «сигнализация тойота камри» – Новосибирск 0, Россия &gt;=28 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/toyota/starline-s96-toyota-camry-2016</code></p>
+<a class="btn" href="k/359/">Открыть как на сайте</a>
+<p class="meta"><b>Сигнализация StarLine S96 на Toyota Camry, Новосибирск</b><br>Toyota Camry 2016: сняли старую Pandora и поставили StarLine S96. На фото – комплект S96 V2, блок под панелью пассажира. Цены установки StarLine.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 1</summary><p class="meta">title 54 зн., description 145 зн., фото 3, ссылок 35</p><ul><li><b>замечание:</b> в перелинковке нет ссылки на каталог или подбор по марке</li></ul></details>
+<details open><summary>Что проверить владельцу: 6</summary><ul><li>В записи «StarLine s96», на коробке на фото – «S96 V2». Ставили именно V2? В тексте версия V2 названа со ссылкой на фото.</li><li>Подключали ли автозапуск на этой Toyota Camry? В записи этого нет, поэтому в тексте обе цены – с автозапуском и без.</li><li>Блок с разъёмами и антенным разъёмом под панелью пассажира (кадр 3130) – это новый StarLine или ещё не снятая Pandora? В подписи он назван просто «блок».</li><li>Год 2016: на кадре 3128 (не взят) передок с хромированной решёткой – похоже на Camry до рестайлинга 2014 года. Год в записи верный?</li><li>Цены снятия Pandora на сайте нет – в тексте написано, что её назовёт менеджер. Так верно?</li><li>Кадр 3128 (машина спереди в цехе, лучший общий вид) не взят: в соседнем Land Cruiser виден человек с лицом в профиль. Если лицо можно закрыть или кадр не важен – решить владельцу.</li></ul></details>
+<details><summary>Фото: взято 3 из 4</summary><ul><li>не взят · номер: zakryt · Camry спереди в цехе, коробка S96 на стекле; номер читается (детектор нашёл верно), но в соседнем Land Cruiser сидит человек, лицо в профиль видно через стекло – кадр не взят</li><li>взят · номер: net · коробка StarLine S96 V2 на лобовом стекле Camry; номера нет, на стекле ароматизатор с рисунком – не человек; первый экран</li><li>взят · номер: net · под панелью пассажира: блок с разъёмами, жгуты проводки, смотанный кабель; номеров нет</li><li>взят · номер: net · салон со стороны пассажира, перчаточный ящик снят, видна панель и руль Toyota; у правого края рукав человека, лица нет</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-17 → CTA-03 + полоса CTA-20 · написано за 4 мин</p>
 </div><div class="card" data-id="358" data-marka="Toyota" data-status="gotovo">
 <div class="top"><b>№358 · Toyota Land Cruiser Prado 120, 2008</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC4, камера заднего вида · 03.11.2026 · фото: 6 · услуга: мультимедиа Teyes</p>
@@ -164,23 +212,35 @@ document.documentElement.setAttribute('data-theme',t)})();</script></head><body>
 <details open><summary>Что проверить владельцу: 5</summary><ul><li>Размер экрана Teyes CC4 в записи не указан – в тексте его нет. Если это 9 или 10 дюймов, можно дописать.</li><li>Камеру заднего вида ставили мы (из записи «CC4, камера заднего вида»)? На кадре 3125 она стоит над задним номером под хромированной накладкой – так и написано в блоке «Что важно знать».</li><li>Кадр 3125 с камерой над номером не взят: номер занимает половину кадра, закрыть только табличку скрипт не дал. Нужен кадр камеры без номера – пришлите, если есть.</li><li>Кнопки руля, штатный звук и верхний дисплей – сохранились ли их функции? В тексте только то, что видно: верхний дисплей показывает время и температуру, блок климата на месте.</li><li>Ссылка на страницу модели multimedia_teyes/toyota/land отвечает 404 – не поставлена.</li></ul></details>
 <details><summary>Фото: взято 5 из 6</summary><ul><li>взят · номер: net · до установки: штатная DVD-магнитола и блок климата; рамка детектора – дисплей климата, не номер (--ne-nomer)</li><li>взят · номер: net · после: Teyes CC4 в консоли, вид с места водителя – кадр первого экрана; рамка детектора – дисплей климата (--ne-nomer)</li><li>взят · номер: zakryt · картинка камеры на экране; номер белого минивэна на экране закрыт; рамка детектора – дисплей климата (--ne-nomer)</li><li>не взят · номер: zakryt · камера над номером крупно; номер занимает половину кадра, скрипт отказал в закрытии такой площади – кадр не взят</li><li>взят · номер: net · надпись Land Cruiser Prado на двери багажника, номера нет</li><li>взят · номер: zakryt · Prado 120 спереди в цехе; номер под углом закрыт по четырём углам таблички</li></ul></details>
 <p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 4 мин</p>
-</div><div class="card" data-id="357" data-marka="Mercedes-Benz" data-status="zhdyot">
-<div class="top"><b>№357 · Mercedes-Benz GL 500, 2008</b><span class="chip zhdyot">ждёт</span></div>
+</div><div class="card" data-id="357" data-marka="Mercedes-Benz" data-status="gotovo">
+<div class="top"><b>№357 · Mercedes-Benz GL 500, 2008</b><span class="chip gotovo">готово</span></div>
 <p class="meta">CC4, камера заднего вида · 02.11.2026 · фото: 4 · услуга: мультимедиа Teyes</p>
 <p class="meta">Запрос: «магнитола мерседес gl» – Новосибирск &gt;=5, Россия &gt;=45 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/mercedes/teyes-cc4-mercedes-gl-500-2008-rear-camera</code></p>
+<a class="btn" href="k/357/">Открыть как на сайте</a>
+<p class="meta"><b>Магнитола Teyes CC4 на Mercedes GL 500 в Новосибирске</b><br>Mercedes-Benz GL 500 2008: поставили магнитолу Teyes CC4 и камеру заднего вида. На фото – экран в центральной консоли над блоком климата.</p>
+<details><summary>Проверка кодом: ошибок 0, замечаний 1</summary><p class="meta">title 53 зн., description 137 зн., фото 3, ссылок 32</p><ul><li><b>замечание:</b> mercedes-gl-500-teyes-cc4-dashboard-driver-view.webp: детектор видит номер в рамке [1077, 677, 1485, 928] (уверенность 0.6), писатель отметил, что это не номер – посмотреть глазами</li></ul></details>
+<details open><summary>Что проверить владельцу: 6</summary><ul><li>Место камеры «в накладке пятой двери, над задним номером» взято с кадра telegram_3120, который на страницу не попал (номер на полкадра, закрыть аккуратно нельзя). Подтвердить место.</li><li>Картинки камеры на экране Teyes CC4 нет ни на одном кадре – камера выведена на экран магнитолы или на что-то другое?</li><li>Teyes CC4 стоит на месте штатной магнитолы в рамке – так по фото. Что стояло до установки, в записи нет: в тексте не названо.</li><li>Кнопки руля, штатный звук и усилитель не упомянуты ни в записи, ни на фото – в тексте про них ничего нет.</li><li>Диагональ экрана Teyes CC4 в записи не указана – в тексте её нет; если известна, можно добавить.</li><li>Кадр с камерой над номером стоит переснять без номера в кадре (или закрыть табличкой TEYES SIBIR) – это лучший кадр про камеру.</li></ul></details>
+<details><summary>Фото: взято 3 из 4</summary><ul><li>взят · номер: net · консоль сбоку: Teyes CC4 в рамке над блоком климата, рабочий стол Teyes – кадр для первого экрана</li><li>взят · номер: net · вид с места водителя на панель и экран Teyes; рамка детектора 1077,677,1486,928 – экран магнитолы, не номер (--ne-nomer); в зеркале только пальцы снимающего, лица нет</li><li>не взят · номер: zakryt · камера заднего вида над номером крупно; номер занимает полкадра, скрипт отказал закрывать (рамка слишком большая) – кадр не взят</li><li>взят · номер: zakryt · машина спереди в три четверти в цехе; передний номер под углом закрыт по четырём углам, читаемых знаков нет</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-02 → CTA-06 + полоса CTA-20 · написано за 4 мин</p>
 </div><div class="card" data-id="356" data-marka="Mazda" data-status="zhdyot">
 <div class="top"><b>№356 · Mazda CX-5, 2026</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка сигнализации StarLine e97 · 31.10.2026 · фото: 2 · услуга: сигнализация</p>
 <p class="meta">Запрос: «сигнализация мазда сх 5» – Новосибирск &gt;=1, Россия &gt;=305 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/mazda/starline-e97-mazda-cx-5-2026</code></p>
 <details><summary>Замечания реестра: 1</summary><ul><li>мало фото (2)</li></ul></details>
-</div><div class="card" data-id="355" data-marka="Mazda" data-status="zhdyot">
-<div class="top"><b>№355 · Mazda CX-3, 2018</b><span class="chip zhdyot">ждёт</span></div>
+</div><div class="card" data-id="355" data-marka="Mazda" data-status="gotovo">
+<div class="top"><b>№355 · Mazda CX-3, 2018</b><span class="chip gotovo">готово</span></div>
 <p class="meta">Установка сигнализации StarLine e97 · 31.10.2026 · фото: 2 · услуга: сигнализация</p>
 <p class="meta">Запрос: «сигнализация мазда сх 3» – Новосибирск 0, Россия 0 в месяц · угол: головной запрос модели</p>
 <p class="meta">Адрес: <code>/work/mazda/starline-e97-mazda-cx-3-2018</code></p>
+<a class="btn" href="k/355/">Открыть как на сайте</a>
+<p class="meta"><b>Сигнализация StarLine E97 на Mazda CX-3 в Новосибирске</b><br>Mazda CX-3 2018 с правым рулём: мастера TEYES Sibir установили сигнализацию StarLine E97. На фото – белый CX-3 в цехе и коробка комплекса. Цены от 8 000 ₽.</p>
 <details><summary>Замечания реестра: 1</summary><ul><li>мало фото (2)</li></ul></details>
+<details><summary>Проверка кодом: ошибок 0, замечаний 0</summary><p class="meta">title 54 зн., description 155 зн., фото 2, ссылок 36</p></details>
+<details open><summary>Что проверить владельцу: 4</summary><ul><li>Ставили ли автозапуск на Mazda CX-3? В записи этого нет, поэтому в тексте обе цены – без автозапуска и с ним.</li><li>Управление по Bluetooth Smart, приложение и брелок с экраном упомянуты только по надписям и рисункам на коробке E97 – что из этого настроили и отдали владельцу?</li><li>«Других работ по машине не заказывали» – выведено из того, что в записи одна работа. Верно?</li><li>Фото установленного блока, брелока или приложения нет, только машина с коробкой – есть ли кадры после установки?</li></ul></details>
+<details><summary>Фото: взято 2 из 2</summary><ul><li>взят · номер: net · коробка StarLine E97 на капоте у лобового стекла, номера в кадре нет; наклейка «2» на стекле – не номер</li><li>взят · номер: zakryt · Mazda CX-3 спереди в цехе, коробка StarLine у стекла; передний номер закрыт по рамке детектора (0,94), лупой проверено – знаков не видно</li></ul></details>
+<p class="meta">Призывы: CTA-01 → CTA-17 → CTA-16 + полоса CTA-20 · написано за 2 мин</p>
 </div><div class="card" data-id="354" data-marka="Suzuki" data-status="zhdyot">
 <div class="top"><b>№354 · Suzuki Grand Vitara, 2008</b><span class="chip zhdyot">ждёт</span></div>
 <p class="meta">Установка мультимедиа Teyes cc4 360, сигнализации StarLine e97 · 31.10.2026 · фото: 10 · услуга: мультимедиа Teyes</p>
